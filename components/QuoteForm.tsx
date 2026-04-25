@@ -16,7 +16,7 @@ interface QuoteFormData {
 }
 
 const packageTypes = [
-  'Amazon Package',
+  'Dragonfly Package',
   'Small Parcel (under 5kg)',
   'Medium Parcel (5–20kg)',
   'Large Parcel (20kg+)',

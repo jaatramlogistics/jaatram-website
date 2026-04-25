@@ -5,7 +5,7 @@ import { provinces, getCitiesByProvince } from '@/data/cities';
 export const metadata: Metadata = {
   title: 'Delivery Areas: Ontario, Nova Scotia & New Brunswick',
   description:
-    'Jaatram Logistics delivers Amazon packages across Ontario, Nova Scotia, and New Brunswick. Find your city and get a free delivery quote today.',
+    'Jaatram Logistics delivers packages across Ontario, Nova Scotia, and New Brunswick. Find your city and get a free delivery quote today.',
 };
 
 export default function DeliveryPage() {
@@ -17,7 +17,7 @@ export default function DeliveryPage() {
             Our <span className="text-gold">Delivery Areas</span>
           </h1>
           <p className="text-white/70 text-lg">
-            Amazon last-mile delivery across 3 Canadian provinces. Find your city below.
+            Dragonfly last-mile delivery across 3 Canadian provinces. Find your city below.
           </p>
         </div>
       </section>

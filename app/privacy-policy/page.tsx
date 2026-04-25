@@ -26,7 +26,7 @@ export default function PrivacyPolicyPage() {
             <div>
               <h2 className="text-xl font-bold text-navy mb-3">1. Who We Are</h2>
               <p>
-                Jaatram Logistics Inc. (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is a Canadian logistics company headquartered at 332 Winona Road, Stoney Creek, Ontario, L8E6B5. We operate as a certified Amazon Independent Delivery Contractor serving Ontario, Nova Scotia, and New Brunswick.
+                Jaatram Logistics Inc. (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is a Canadian logistics company headquartered at 332 Winona Road, Stoney Creek, Ontario, L8E6B5. We operate as a certified Dragonfly Delivery Service Provider serving Ontario, Nova Scotia, and New Brunswick.
               </p>
               <p className="mt-3">
                 This Privacy Policy explains how we collect, use, store, and protect your personal information when you visit our website at jaatramlogistics.com, contact us, or use our services.
@@ -68,7 +68,7 @@ export default function PrivacyPolicyPage() {
               <h2 className="text-xl font-bold text-navy mb-3">4. Sharing Your Information</h2>
               <p>We may share your information with:</p>
               <ul className="list-disc pl-5 mt-2 space-y-1">
-                <li>Amazon Canada, as required to fulfil delivery contracts and operations</li>
+                <li>Dragonfly, as required to fulfil delivery contracts and operations</li>
                 <li>Our logistics partners, including Dragonfly, where relevant to your shipment</li>
                 <li>Service providers who assist us in operating our website and business (such as email and analytics providers), under strict confidentiality agreements</li>
                 <li>Law enforcement or regulatory authorities if required by applicable Canadian law</li>

@@ -5,7 +5,7 @@ import CTABanner from '@/components/CTABanner';
 export const metadata: Metadata = {
   title: 'Careers | Join the Jaatram Logistics Team',
   description:
-    'Join Jaatram Logistics, a fast-growing Amazon IDC operating across Ontario, Nova Scotia, and New Brunswick. We are hiring delivery drivers, supervisors, and operations staff.',
+    'Join Jaatram Logistics, a fast-growing Dragonfly DSP operating across Ontario, Nova Scotia, and New Brunswick. We are hiring delivery drivers, supervisors, and operations staff.',
 };
 
 const openings = [
@@ -14,7 +14,7 @@ const openings = [
     type: 'Full-Time',
     location: 'Multiple Stations, Ontario',
     description:
-      'Drive an assigned delivery route for Amazon packages across residential and commercial areas. You will handle 100 to 180 stops per day, use the Amazon Flex app for route navigation, take photo confirmation of deliveries, and represent Jaatram Logistics professionally in the communities we serve.',
+      'Drive an assigned delivery route for packages across residential and commercial areas. You will handle 100 to 180 stops per day, use the Dragonfly driver app for route navigation, take photo confirmation of deliveries, and represent Jaatram Logistics professionally in the communities we serve.',
     requirements: [
       'Valid G driver\'s license with clean abstract',
       'Comfortable with a physically active role (lifting up to 50 lbs)',
@@ -28,7 +28,7 @@ const openings = [
     type: 'Full-Time',
     location: 'Multiple Stations, Ontario',
     description:
-      'Lead a team of delivery drivers at one of our Amazon stations. You will manage morning sort and load operations, monitor driver performance and safety, coordinate with Amazon station management, and resolve any delivery issues that come up throughout the day.',
+      'Lead a team of delivery drivers at one of our Dragonfly stations. You will manage morning sort and load operations, monitor driver performance and safety, coordinate with Dragonfly station management, and resolve any delivery issues that come up throughout the day.',
     requirements: [
       'Previous experience in logistics, transportation, or team leadership',
       'Strong organizational and communication skills',
@@ -89,7 +89,7 @@ export default function CareersPage() {
             Join the <span className="text-gold">Jaatram Logistics</span> Team
           </h1>
           <p className="text-white/70 text-lg max-w-2xl mx-auto">
-            We are a fast-growing Amazon IDC with 140 team members across three provinces. If you are hardworking, reliable, and want to be part of something real, we want to hear from you.
+            We are a fast-growing Dragonfly DSP with 140 team members across three provinces. If you are hardworking, reliable, and want to be part of something real, we want to hear from you.
           </p>
         </div>
       </section>

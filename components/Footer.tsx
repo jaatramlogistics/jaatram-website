@@ -22,7 +22,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-white/60 text-sm leading-relaxed mb-5">
-              Certified Amazon Independent Delivery Contractor serving Ontario, Nova Scotia, and New Brunswick since 2022.
+              Certified Dragonfly Delivery Service Provider serving Ontario, Nova Scotia, and New Brunswick since 2022.
             </p>
             {/* CTA card */}
             <div className="bg-navy rounded-xl p-4 border border-white/10">
@@ -68,11 +68,11 @@ export default function Footer() {
                 { label: 'Ontario', href: '/delivery/ontario' },
                 { label: 'Nova Scotia', href: '/delivery/nova-scotia' },
                 { label: 'New Brunswick', href: '/delivery/new-brunswick' },
-                { label: 'Toronto', href: '/delivery/ontario/toronto' },
-                { label: 'Hamilton', href: '/delivery/ontario/hamilton' },
-                { label: 'Brampton', href: '/delivery/ontario/brampton' },
+                { label: 'Windsor', href: '/delivery/ontario/windsor' },
+                { label: 'Kitchener', href: '/delivery/ontario/kitchener' },
+                { label: 'Vaughan', href: '/delivery/ontario/vaughan' },
                 { label: 'Halifax', href: '/delivery/nova-scotia/halifax' },
-                { label: 'Moncton', href: '/delivery/new-brunswick/moncton' },
+                { label: 'Saint John', href: '/delivery/new-brunswick/saint-john' },
               ].map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className="text-white/60 hover:text-gold text-sm transition-colors flex items-center gap-1.5">

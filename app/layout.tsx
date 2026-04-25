@@ -12,15 +12,15 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://jaatramlogistics.com'),
   title: {
-    default: 'Jaatram Logistics | Amazon Delivery in Ontario, Nova Scotia & New Brunswick',
+    default: 'Jaatram Logistics | Dragonfly Delivery in Ontario, Nova Scotia & New Brunswick',
     template: '%s | Jaatram Logistics',
   },
   description:
-    'Jaatram Logistics is a certified Amazon Independent Delivery Contractor serving Ontario, Nova Scotia, and New Brunswick since 2022. 140+ team members, 4.9-star rating, 6,000+ deliveries.',
+    'Jaatram Logistics is a certified Dragonfly Delivery Service Provider serving Ontario, Nova Scotia, and New Brunswick since 2022. 140+ team members, 4.9-star rating, 6,000+ deliveries.',
   keywords: [
-    'Amazon delivery Canada',
+    'Dragonfly delivery Canada',
     'last mile delivery Ontario',
-    'Amazon IDC Ontario',
+    'Dragonfly DSP Ontario',
     'logistics company Ontario',
     'package delivery Nova Scotia',
     'courier New Brunswick',

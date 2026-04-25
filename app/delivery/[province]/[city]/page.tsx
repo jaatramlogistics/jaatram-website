@@ -51,7 +51,7 @@ export default function CityPage({ params }: Props) {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Jaatram Logistics',
-    description: `Certified Amazon IDC delivering packages in ${city.name}, ${city.provinceAbbr}. Professional team, real-time tracking, 4.9-star rating.`,
+    description: `Certified Dragonfly DSP delivering packages in ${city.name}, ${city.provinceAbbr}. Professional team, real-time tracking, 4.9-star rating.`,
     url: `https://jaatramlogistics.com/delivery/${city.province}/${city.slug}`,
     telephone: '+14377270000',
     email: 'jaatramlogistics@gmail.com',
@@ -131,7 +131,7 @@ export default function CityPage({ params }: Props) {
             <div>
               <div className="inline-flex items-center gap-1.5 bg-gold/20 text-gold text-xs font-bold px-3 py-1.5 rounded-full mb-4 uppercase tracking-wider">
                 <span className="w-1.5 h-1.5 bg-gold rounded-full" />
-                Amazon IDC in {city.provinceAbbr}
+                Dragonfly DSP in {city.provinceAbbr}
               </div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight mb-4">
                 {city.heroHeadline}
@@ -185,7 +185,7 @@ export default function CityPage({ params }: Props) {
             Why Choose Jaatram Logistics in <span className="text-gold">{city.name}?</span>
           </h2>
           <p className="text-gray-500 text-sm mb-8">
-            Certified Amazon IDC delivering in {city.name}, {city.provinceAbbr} with a professional team and modern fleet.
+            Certified Dragonfly DSP delivering in {city.name}, {city.provinceAbbr} with a professional team and modern fleet.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 mb-10">
             {city.serviceHighlights.map((highlight, i) => (
@@ -201,7 +201,7 @@ export default function CityPage({ params }: Props) {
           {/* Service features */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
-              `Amazon-certified delivery in ${city.name}, ${city.provinceAbbr}`,
+              `Dragonfly-certified delivery in ${city.name}, ${city.provinceAbbr}`,
               'Real-time GPS tracking on every package',
               'Professional, uniformed delivery team',
               '4.9-star Google rating across all markets',
@@ -230,18 +230,18 @@ export default function CityPage({ params }: Props) {
                 Shipping Solution in <span className="text-gold">{city.provinceLabel}</span> Since 2022
               </h2>
               <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                Jaatram Logistics was founded in 2022 by our CEO who arrived in Canada as a student in 2019 and started as a delivery driver. Our first Amazon station contract was in Brantford, Ontario. Today we operate across nine stations serving Ontario, Nova Scotia, and New Brunswick.
+                Jaatram Logistics was founded in 2022 by our CEO who arrived in Canada as a student in 2019 and started as a delivery driver. Our first Dragonfly station contract was in Brantford, Ontario. Today we operate across nine stations serving Ontario, Nova Scotia, and New Brunswick.
               </p>
               <p className="text-gray-600 text-sm leading-relaxed mb-5">
-                With 140 dedicated professionals, 12 experienced supervisors, and a modern fleet of 106 vehicles, we deliver thousands of Amazon packages every week with a 4.9-star rating.
+                With 140 dedicated professionals, 12 experienced supervisors, and a modern fleet of 106 vehicles, we deliver thousands of packages every week with a 4.9-star rating.
               </p>
               <div className="flex items-center gap-2 text-sm font-bold text-navy">
                 <span className="text-gold text-lg">★★★★★</span>
-                4.9 Google Rating · Amazon IDC Certified
+                4.9 Google Rating · Dragonfly DSP Certified
               </div>
             </div>
             <div className="bg-navy rounded-2xl p-6 text-white">
-              <p className="text-xs font-bold text-gold uppercase tracking-wider mb-3">Nearest Amazon Station</p>
+              <p className="text-xs font-bold text-gold uppercase tracking-wider mb-3">Nearest Dragonfly Station</p>
               <h3 className="text-xl font-bold mb-2">{city.nearbyStation}</h3>
               <p className="text-white/60 text-sm leading-relaxed mb-4">
                 Our certified team operates from this station to serve {city.name} and surrounding {city.region} communities.
@@ -272,7 +272,7 @@ export default function CityPage({ params }: Props) {
             Frequently Asked Questions: <span className="text-gold">{city.name}</span>
           </h2>
           <p className="text-gray-500 text-sm mb-8">
-            Common questions about Amazon delivery and logistics services in {city.name}, {city.provinceAbbr}.
+            Common questions about Dragonfly delivery and logistics services in {city.name}, {city.provinceAbbr}.
           </p>
           <FAQAccordion faqs={city.faqs} />
         </div>
@@ -293,7 +293,7 @@ export default function CityPage({ params }: Props) {
                   className="bg-white rounded-xl p-4 [box-shadow:0_2px_16px_0_rgba(26,43,94,0.08)] hover:[box-shadow:0_6px_28px_0_rgba(26,43,94,0.14)] transition-shadow group"
                 >
                   <h3 className="font-bold text-navy group-hover:text-gold transition-colors">
-                    {nearby.heroHeadline.replace('Amazon Delivery in ', '')}
+                    {nearby.heroHeadline.replace('Dragonfly Delivery in ', '')}
                   </h3>
                   <p className="text-xs text-gray-400 mt-1 line-clamp-1">{nearby.serviceHighlights[0]}</p>
                 </Link>
@@ -307,7 +307,7 @@ export default function CityPage({ params }: Props) {
       <section className="py-8 bg-white border-t border-mid-blue/30">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">
           <p className="text-sm text-gray-500">
-            Looking for Amazon delivery across all of {city.provinceLabel}?{' '}
+            Looking for Dragonfly delivery across all of {city.provinceLabel}?{' '}
             <Link href={`/delivery/${city.province}`} className="text-gold font-bold hover:underline">
               View all {city.provinceLabel} delivery areas →
             </Link>

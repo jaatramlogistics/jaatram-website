@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 const services = [
   {
     icon: '📦',
-    title: 'Last-Mile Amazon Delivery',
-    desc: 'As a certified Amazon IDC, we handle the final leg of delivery from the Amazon fulfilment centre straight to your door. Covering residential and commercial addresses across 3 provinces.',
+    title: 'Last-Mile Dragonfly Delivery',
+    desc: 'As a certified Dragonfly DSP, we handle the final leg of delivery from the Dragonfly fulfilment centre straight to your door. Covering residential and commercial addresses across 3 provinces.',
     features: ['Same-day & next-day delivery', 'Photo confirmation on delivery', 'Delivery to apartments, condos, houses', 'Commercial address delivery'],
   },
   {
@@ -24,7 +24,7 @@ const services = [
   {
     icon: '📍',
     title: 'Real-Time Package Tracking',
-    desc: 'Every delivery is tracked in real-time using Amazon\'s logistics platform. Customers receive live notifications and can monitor driver location throughout delivery.',
+    desc: 'Every delivery is tracked in real-time using Dragonfly's logistics platform. Customers receive live notifications and can monitor driver location throughout delivery.',
     features: ['Live GPS tracking', 'SMS & email notifications', 'Driver ETA updates', 'Delivery confirmation photos'],
   },
   {
@@ -56,7 +56,7 @@ export default function ServicesPage() {
             Our <span className="text-gold">Services</span>
           </h1>
           <p className="text-white/70 text-lg">
-            Professional logistics services for Ontario, Nova Scotia, and New Brunswick, backed by an Amazon-certified team.
+            Professional logistics services for Ontario, Nova Scotia, and New Brunswick, backed by a Dragonfly-certified team.
           </p>
         </div>
       </section>

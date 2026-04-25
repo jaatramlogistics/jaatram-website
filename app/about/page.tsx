@@ -6,19 +6,19 @@ import StatsBar from '@/components/StatsBar';
 export const metadata: Metadata = {
   title: 'About Us | Jaatram Logistics',
   description:
-    "Learn about Jaatram Logistics, founded in 2022 by a student who became one of Ontario's most trusted Amazon IDC operators. 140 professionals, 9 stations, 3 provinces.",
+    "Learn about Jaatram Logistics, founded in 2022 by a student who became one of Ontario's most trusted Dragonfly DSP operators. 140 professionals, 9 stations, 3 provinces.",
 };
 
 const milestones = [
   { year: '2019', title: 'Arrived in Canada', desc: 'Our CEO arrived in Canada as a student, ready to build a new life.' },
   { year: '2020', title: 'First Delivery Driver Job', desc: 'Started part-time as a delivery driver, quickly gaining hands-on logistics experience and earning a promotion to supervisor.' },
-  { year: '2022', title: 'Founded Jaatram Logistics', desc: 'In July 2022, registered Jaatram Logistics and secured the first Amazon station contract in Brantford, Ontario.' },
-  { year: '2023', title: 'IDC Status Achieved', desc: 'Became a certified Amazon Independent Delivery Contractor (IDC) and expanded to 9+ stations across Ontario.' },
+  { year: '2022', title: 'Founded Jaatram Logistics', desc: 'In July 2022, registered Jaatram Logistics and secured the first Dragonfly station contract in Brantford, Ontario.' },
+  { year: '2023', title: 'IDC Status Achieved', desc: 'Became a certified Dragonfly Delivery Service Provider (DSP) and expanded to 9+ stations across Ontario.' },
   { year: '2024+', title: 'Atlantic Expansion', desc: 'Expanded service to Nova Scotia and New Brunswick. Now a 140-person team with 106 vehicles serving 3 provinces.' },
 ];
 
 const values = [
-  { icon: '🛡️', title: 'Safety First', desc: "Every driver is trained to Amazon's safety standards. Every package is handled with care." },
+  { icon: '🛡️', title: 'Safety First', desc: "Every driver is trained to Dragonfly's safety standards. Every package is handled with care." },
   { icon: '⏱️', title: 'Reliability', desc: 'A 4.9-star Google rating is not an accident. We show up on time, every time.' },
   { icon: '📡', title: 'Transparency', desc: 'Real-time tracking means you always know where your package is.' },
   { icon: '🌿', title: 'Eco-Friendly', desc: '6 electric vehicles in our fleet and a commitment to reducing our environmental footprint.' },
@@ -47,7 +47,7 @@ export default function AboutPage() {
             About <span className="text-gold">Jaatram Logistics</span>
           </h1>
           <p className="text-white/70 text-lg max-w-2xl mx-auto">
-            From a student with a vision to one of Ontario&apos;s most trusted Amazon IDC operators. This is our story.
+            From a student with a vision to one of Ontario&apos;s most trusted Dragonfly DSP operators. This is our story.
           </p>
         </div>
       </section>
@@ -68,7 +68,7 @@ export default function AboutPage() {
                   In 2019, our CEO arrived in Canada as a student. By 2020, he began working part-time as a delivery driver, quickly gaining valuable knowledge and experience in the field. His dedication and hard work led to a promotion to supervisor, where he continued to expand his expertise.
                 </p>
                 <p>
-                  In July 2022, he took a significant step forward by registering Jaatram Logistics. Soon after, he secured the first contract at the Brantford Amazon station. Today we are an Independent Delivery Contractor (IDC) serving nine additional stations across Ontario.
+                  In July 2022, he took a significant step forward by registering Jaatram Logistics. Soon after, he secured the first contract at the Brantford Dragonfly station. Today we are an Independent Delivery Contractor (IDC) serving nine additional stations across Ontario.
                 </p>
                 <p>
                   Under his leadership, our team has grown to 140 dedicated professionals, with 12 experienced supervisors managing operations at each station. We own 6 EVs, 30 large vans, and 70 smaller vans, committed to providing exceptional delivery services.
@@ -154,19 +154,19 @@ export default function AboutPage() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Amazon */}
+            {/* Dragonfly */}
             <div className="bg-light-blue rounded-3xl p-8">
               <div className="flex items-center gap-4 mb-5">
                 <div className="w-14 h-14 bg-[#FF9900] rounded-2xl flex items-center justify-center">
                   <span className="text-white font-black text-2xl">a</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-black text-navy">Amazon IDC</h3>
+                  <h3 className="text-xl font-black text-navy">Dragonfly DSP</h3>
                   <span className="text-xs bg-gold/20 text-gold font-bold px-2.5 py-1 rounded-full">Certified Partner</span>
                 </div>
               </div>
               <p className="text-gray-600 text-sm leading-relaxed mb-5">
-                As a certified Amazon Independent Delivery Contractor, we handle last-mile delivery across nine Amazon stations in Ontario, Nova Scotia, and New Brunswick. Every delivery follows Amazon&apos;s strict quality and safety standards, which is why we maintain a 4.9-star rating across thousands of deliveries.
+                As a certified Dragonfly Delivery Service Provider, we handle last-mile delivery across nine Dragonfly stations in Ontario, Nova Scotia, and New Brunswick. Every delivery follows Dragonfly's strict quality and safety standards, which is why we maintain a 4.9-star rating across thousands of deliveries.
               </p>
               <div className="grid grid-cols-3 gap-3 text-center">
                 {[
@@ -195,7 +195,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <p className="text-white/70 text-sm leading-relaxed mb-5">
-                Alongside Amazon, we operate as a delivery partner for Dragonfly, a growing North American logistics and delivery network. Our dedicated Dragonfly fleet, branded on Toyota Sienna vans, handles a distinct category of deliveries with the same professionalism and reliability our customers expect.
+                Our Dragonfly fleet, branded on Toyota Sienna vans and BrightDrop electric vehicles, handles deliveries with the same professionalism and reliability our customers expect across every route we serve.
               </p>
               <div className="relative rounded-2xl overflow-hidden h-36">
                 <Image
@@ -227,7 +227,7 @@ export default function AboutPage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
             {[
-              { src: '/images/team-warehouse.jpg', alt: 'Jaatram Logistics team at the Amazon warehouse', label: 'Amazon Station Team' },
+              { src: '/images/team-warehouse.jpg', alt: 'Jaatram Logistics team at the Dragonfly station', label: 'Dragonfly Station Team' },
               { src: '/images/team-outdoor.jpg', alt: 'Jaatram Logistics team outdoors', label: 'Ready for the Route' },
               { src: '/images/team-indoor.jpg', alt: 'Jaatram Logistics team in company polos', label: 'Our Growing Family' },
             ].map((photo) => (
@@ -253,7 +253,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {[
               { count: '6', label: 'Electric Vehicles (EVs)', icon: '⚡', desc: 'Zero-emission urban delivery. Our green fleet for city centres.' },
-              { count: '30', label: 'Large Vans', icon: '🚐', desc: 'High-capacity vans for bulk Amazon station runs and large parcel routes.' },
+              { count: '30', label: 'Large Vans', icon: '🚐', desc: 'High-capacity vans for bulk Dragonfly station runs and large parcel routes.' },
               { count: '70', label: 'Smaller Vans', icon: '🚚', desc: 'Agile delivery vans for residential neighbourhoods and tight urban routes.' },
             ].map((item) => (
               <div key={item.label} className="bg-light-blue rounded-2xl [box-shadow:0_2px_16px_0_rgba(26,43,94,0.08)] p-6 text-center">

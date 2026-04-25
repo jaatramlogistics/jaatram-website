@@ -6,7 +6,7 @@ import { blogPosts } from '@/data/blog';
 export const metadata: Metadata = {
   title: 'Blog | Logistics Tips and Guides',
   description:
-    "Read Jaatram Logistics' blog for insights on Amazon last-mile delivery, logistics trends, and shipping guides for Ontario, Nova Scotia, and New Brunswick.",
+    "Read Jaatram Logistics' blog for insights on Dragonfly last-mile delivery, logistics trends, and shipping guides for Ontario, Nova Scotia, and New Brunswick.",
 };
 
 export default function BlogPage() {
@@ -20,7 +20,7 @@ export default function BlogPage() {
             Jaatram <span className="text-gold">Blog</span>
           </h1>
           <p className="text-white/70 text-lg">
-            Insights on Amazon delivery, logistics trends, and what it takes to move packages across three provinces.
+            Insights on Dragonfly delivery, logistics trends, and what it takes to move packages across three provinces.
           </p>
         </div>
       </section>

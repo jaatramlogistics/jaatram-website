@@ -8,7 +8,7 @@ const services = [
   {
     icon: '📦',
     title: 'Last-Mile Delivery',
-    desc: 'Certified Amazon IDC delivering packages to residential and commercial addresses across three provinces.',
+    desc: 'Certified Dragonfly DSP delivering packages to residential and commercial addresses across three provinces.',
   },
   {
     icon: '🚐',
@@ -65,7 +65,7 @@ const steps = [
   {
     num: '1',
     title: 'Receive Package',
-    desc: 'We collect your package from the Amazon fulfilment centre and sort it for efficient delivery.',
+    desc: 'We collect packages from the Dragonfly fulfilment centre and sort them for efficient delivery.',
   },
   {
     num: '2',
@@ -83,13 +83,13 @@ const reviews = [
   {
     name: 'Sarah M.',
     location: 'Brampton, ON',
-    text: "Always on time and super professional. The driver was friendly and left a photo confirmation. Best Amazon delivery experience I've had!",
+    text: "Always on time and super professional. The driver was friendly and left a photo confirmation. Best Dragonfly delivery experience I've had!",
     rating: 5,
   },
   {
     name: 'William K.',
     location: 'Halifax, NS',
-    text: "I've been receiving Amazon deliveries from Jaatram for 6 months and they've never missed a delivery. Highly recommend.",
+    text: "I've been receiving Dragonfly deliveries from Jaatram for 6 months and they've never missed a delivery. Highly recommend.",
     rating: 5,
   },
   {
@@ -111,7 +111,7 @@ export default function HomePage() {
             <div>
               <div className="inline-flex items-center gap-2 bg-gold/20 text-gold text-xs font-bold px-3 py-1.5 rounded-full mb-5 uppercase tracking-wider">
                 <span className="w-1.5 h-1.5 bg-gold rounded-full" />
-                Certified Amazon IDC Since 2022
+                Certified Dragonfly DSP Since 2022
               </div>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight mb-5">
                 Best Solution For{' '}
@@ -119,7 +119,7 @@ export default function HomePage() {
                 Transport
               </h1>
               <p className="text-white/70 text-base sm:text-lg mb-8 max-w-lg">
-                Reliable Amazon last-mile delivery across Ontario, Nova Scotia, and New Brunswick. 140+ professionals. 4.9-star rating. 6,000+ deliveries.
+                Reliable Dragonfly last-mile delivery across Ontario, Nova Scotia, and New Brunswick. 140+ professionals. 4.9-star rating. 6,000+ deliveries.
               </p>
               <div className="flex flex-wrap gap-3">
                 <Link href="/quote" className="btn-primary">
@@ -135,7 +135,7 @@ export default function HomePage() {
 
               {/* Trust bar */}
               <div className="flex flex-wrap gap-4 mt-8">
-                {['Amazon IDC Partner', '4.9★ Google Rating', '7-Day Delivery', '3 Provinces'].map((t) => (
+                {['Dragonfly DSP Partner', '4.9★ Google Rating', '7-Day Delivery', '3 Provinces'].map((t) => (
                   <div key={t} className="flex items-center gap-1.5 text-white/60 text-xs">
                     <svg className="w-3.5 h-3.5 text-gold shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
@@ -169,7 +169,7 @@ export default function HomePage() {
                 <span className="text-white font-black text-base">a</span>
               </div>
               <div className="text-left">
-                <p className="text-navy font-black text-base leading-none">Amazon</p>
+                <p className="text-navy font-black text-base leading-none">Dragonfly</p>
                 <p className="text-xs text-gray-400 mt-0.5">IDC Certified</p>
               </div>
             </div>

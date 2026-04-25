@@ -12,313 +12,256 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
-    slug: 'how-amazon-last-mile-delivery-works-ontario',
-    title: 'How Amazon Last-Mile Delivery Works in Ontario',
+    slug: 'how-dragonfly-last-mile-delivery-works',
+    title: 'How Dragonfly Last-Mile Delivery Works in Ontario, Nova Scotia, and New Brunswick',
     category: 'Informational',
     date: 'April 15, 2026',
     author: 'Jaatram Logistics Team',
     readTime: '6 min read',
     excerpt:
-      'A behind-the-scenes look at how Amazon packages get from the fulfilment centre to your doorstep and the role Jaatram Logistics plays in the final mile.',
+      'Last-mile delivery is the most complex and critical part of the supply chain. Here is a detailed look at how Dragonfly delivery works, and the role Jaatram Logistics plays in bringing packages to your door across three provinces.',
     featuredImage: '/images/team-warehouse.jpg',
-    content: `
-When you click "Buy Now" on Amazon, a complex chain of events begins. Within hours, your order is picked, packed, and moving through a network that spans thousands of kilometres. But the last few kilometres from a local delivery station to your front door are often the most complex and costly part of the entire journey. That final stretch is what we do every single day at Jaatram Logistics.
+    content: `## What Is Last-Mile Delivery?
 
-## What Is Last-Mile Delivery?
+Last-mile delivery refers to the final stage of the delivery process, the movement of a package from a local distribution or delivery station directly to a customer's home or business. It sounds simple, but it is actually the most expensive, time-sensitive, and operationally complex part of the entire supply chain.
 
-Last-mile delivery refers to the final leg of the shipping process: moving a package from a transportation hub or fulfilment centre to the customer's home or business. In a country as geographically spread out as Canada, last-mile delivery is especially challenging. Urban areas like Toronto have dense populations but traffic congestion and apartment buildings to navigate. Smaller cities and rural communities require longer routes and more flexibility.
+At Jaatram Logistics, last-mile delivery is all we do. As a certified Dragonfly Delivery Service Provider (DSP), we are responsible for picking up packages at Dragonfly's regional stations and getting them to customers' doors across Ontario, Nova Scotia, and New Brunswick.
 
-Amazon has built one of the most sophisticated last-mile networks in the world, and at the heart of it are certified Independent Delivery Contractors (IDCs) like Jaatram Logistics.
+## The Dragonfly Delivery Network
 
-## The Journey of Your Package
+Dragonfly has built a sophisticated last-mile delivery network across Canada, and at the heart of that network are certified Delivery Service Providers like Jaatram Logistics. We operate from Dragonfly's local delivery stations, which serve as the staging point for packages headed to homes and businesses in our service areas.
 
-Here is what actually happens from the moment you place an order to the moment it lands at your door.
+Each morning, our team arrives at the station early. Packages have been sorted and staged overnight. Our supervisors review the routes, assign drivers, and ensure every vehicle is loaded efficiently before the day's deliveries begin.
 
-**Step 1: Fulfilment Centre**
-Your order starts at an Amazon fulfilment centre, a massive warehouse where products are stored, picked, and packed. Ontario alone has multiple large fulfilment centres handling millions of orders. Once your package is packed and labelled, it is sorted and dispatched for regional movement.
+## How Your Package Gets to Your Door
 
-**Step 2: Sort Centre**
-Packages travel from fulfilment centres to regional sort centres where they are organized by delivery area. Think of it as a large postal hub that splits parcels into routes. This is where the packages heading to, say, Hamilton or Brampton are grouped together.
+**Step 1: Station Pickup**
+Packages arrive at the Dragonfly delivery station after moving through the broader logistics network. Our team scans, sorts, and loads them onto delivery vehicles in route order, so drivers can work efficiently through their stops.
 
-**Step 3: Amazon Delivery Station**
-This is where Jaatram Logistics comes in. Packages arrive at an Amazon delivery station, which is a smaller, local facility close to the delivery area. We operate out of nine stations across Ontario, Nova Scotia, and New Brunswick. Each morning, our team arrives early, loads packages onto our vehicles, and plans optimized delivery routes.
+**Step 2: Route Planning**
+Our experienced supervisors use Dragonfly's routing software to plan the most efficient delivery routes. Every stop is sequenced to minimize travel time and ensure the fastest possible delivery for every customer.
 
-**Step 4: Route Planning and Loading**
-Our experienced supervisors use Amazon's proprietary routing software to plan the most efficient delivery routes. Packages are scanned and loaded onto vehicles in a specific order so drivers can work through their routes quickly without unpacking everything to find the right parcel.
+**Step 3: Out for Delivery**
+Our drivers head out on their assigned routes, typically handling between 100 and 180 stops per shift. They navigate residential streets, apartment buildings, commercial zones, and rural roads across our service areas.
 
-**Step 5: On the Road**
-Our drivers set out in the morning, delivering between 100 and 200 packages per shift depending on the area and package size. We operate a fleet of 106 vehicles: 6 electric vans for urban routes, 30 large vans for high-volume days, and 70 smaller vans for residential neighbourhoods.
+**Step 4: Real-Time Tracking**
+Every delivery is tracked in real time. Customers receive notifications as their package moves closer, and our drivers take a photo at each delivery location to confirm successful drop-off.
 
-Every delivery is tracked in real time through Amazon's system. Customers receive notifications, and our drivers take a photo of each package at the door to confirm successful delivery.
+**Step 5: Photo Confirmation and Safe Drop**
+Dragonfly requires photo confirmation for every package. Our drivers photograph the package at the delivery location, and that image is uploaded instantly. If no one is home, drivers follow Dragonfly's safe-drop guidelines, finding the most secure, weather-protected location available such as a covered porch, a lobby, or a building mailroom.
 
-**Step 6: Proof of Delivery**
-Amazon requires photo confirmation for every package. Our drivers photograph the package at the delivery location, and that image is uploaded instantly to the customer's order tracking page. If no one is home, the driver follows Amazon's safe-drop protocols and leaves the package in a secure location.
+## The Scale of Our Operation
 
-## Why Ontario Is Particularly Complex
+Since founding in 2022, Jaatram Logistics has grown from a single station in Brantford, Ontario, to nine stations across three provinces. We have built a team of 140 dedicated delivery professionals and 12 experienced supervisors. Our fleet includes 106 vehicles, including 6 BrightDrop electric vans that handle urban delivery routes with zero emissions.
 
-Ontario is Canada's most populous province and also one of its most geographically diverse. The Greater Toronto Area alone is home to over 6 million people, with high-density condos and apartments that require elevator access, secured lobbies, and careful coordination with building management.
+That growth reflects the trust Dragonfly places in us and the quality of service our team delivers every day. We maintain a 4.9-star Google rating across thousands of completed deliveries, which is a reflection of the care and professionalism our drivers bring to every route.
 
-Outside the GTA, cities like Hamilton, London, and Kingston have their own unique challenges. Older neighbourhoods with narrow streets, new subdivisions with confusing layouts, and rural routes with long distances between drops all require experienced drivers who know the area well.
+## Technology That Powers Every Delivery
 
-At Jaatram Logistics, our team is trained to handle all of these situations. We hire locally where possible, so our drivers know the neighbourhoods they serve. That local knowledge makes a real difference in delivery accuracy and speed.
+Dragonfly's delivery operations are powered by sophisticated technology. Our drivers use the Dragonfly driver app to manage their routes, scan packages, upload delivery photos, and communicate with dispatch. GPS tracking means we always know where every vehicle is, and our supervisors can respond quickly if a driver needs support in the field.
 
-## Our Role as an Amazon IDC
+This technology allows us to operate with precision at scale. When you receive a notification that your package is nearby, it is because our system is tracking your driver in real time and sending you live updates.
 
-As a certified Amazon Independent Delivery Contractor, Jaatram Logistics operates under Amazon's standards for safety, quality, and service. This means every driver goes through a thorough onboarding process, every vehicle meets Amazon's requirements, and every delivery is held to the same high standard customers expect from Amazon.
+## What Happens When Delivery Does Not Go as Planned?
 
-We are not a courier company that handles random parcels. We are a dedicated Amazon delivery partner, focused entirely on getting Amazon packages to their destination on time and in perfect condition.
+Despite our best efforts, sometimes things do not go as planned. A customer may not be home, an address may be incorrect, or a building may be inaccessible. In these situations, we follow Dragonfly's protocols: attempt safe drop, contact the customer if possible, and return undeliverable packages to the station for redelivery or resolution.
 
-Since founding in 2022, we have built a team of 140 dedicated professionals and 12 experienced supervisors. We started with one station in Brantford, Ontario, and have grown to nine stations across three provinces. That growth reflects the trust Amazon places in us and the quality of service our team delivers every day.
+If your tracking shows that a delivery was attempted but unsuccessful, there are a few common reasons. The address may have been entered incorrectly. The building may require a buzzer code that was not available. The package may require a signature and no one was home.
 
-## The Technology Behind the Delivery
+If you have concerns about a specific delivery, you are welcome to contact us directly at +1 (437) 727 0000 or jaatramlogistics@gmail.com. We will investigate and work toward a resolution as quickly as possible.
 
-Amazon's delivery operations are powered by sophisticated technology. Our drivers use the Amazon Flex app to manage their routes, scan packages, upload delivery photos, and communicate with dispatch. GPS tracking means we always know where every vehicle is, and our supervisors can respond quickly if a driver needs support.
+## Serving Three Provinces with One Standard
 
-Real-time tracking is also available to customers. You can watch your delivery move closer to your home in real time, receive text notifications, and see the photo of your package once it is delivered. This level of transparency is something we are proud to be part of.
+One of the things that sets Jaatram Logistics apart is our consistent service standard across all three provinces we serve. Whether we are delivering to a home in Kitchener, Ontario, an apartment in Halifax, Nova Scotia, or a business in Saint John, New Brunswick, every package is handled with the same level of care.
 
-## What Happens When Something Goes Wrong
+Our drivers are trained to Dragonfly's standards and our supervisors hold the team accountable to high performance metrics every single day. That consistency is what has allowed us to grow quickly and earn the trust of both Dragonfly and our customers.
 
-Despite our best efforts, sometimes things do not go as planned. A customer may not be home, an address may be incorrect, or a building may be inaccessible. In these situations, we follow Amazon's protocols: attempt safe drop, contact the customer if possible, and return undeliverable packages to the station for redelivery or resolution.
+## Why Dragonfly Chooses Local DSPs
 
-Our 4.9-star Google rating reflects our commitment to getting it right, even when circumstances are difficult. Our team is trained to handle edge cases professionally, and our customer support line is available Monday through Sunday, 8 AM to 8 PM.
+From Dragonfly's perspective, the DSP model solves a real problem. Last-mile delivery is expensive and operationally complex. By partnering with local Delivery Service Providers, Dragonfly can scale its delivery capacity quickly without managing every element of the operation directly.
 
-## Looking Ahead
+Local DSPs are also more agile than large national carriers. A business like Jaatram Logistics can hire drivers who know the neighbourhood, adapt to local road conditions, and respond to community-specific challenges in ways that a national carrier simply cannot. Dragonfly provides the technology, the volume, and the standards. We provide the local knowledge, the vehicles, and the people.
 
-Last-mile delivery in Canada is evolving quickly. Electric vehicles are becoming more common on delivery routes. Route optimization software is getting smarter. Customer expectations for speed and transparency keep rising. At Jaatram Logistics, we are investing in all three areas to stay ahead.
+For customers, this means faster, more accurate deliveries. Because our drivers are embedded in their local areas, they become familiar with the routes. They know which apartment buildings have tricky access, which neighbourhoods have limited parking, and how to navigate the unique challenges of each service area. That local knowledge translates directly into better delivery outcomes.
 
-Our six electric vans are just the beginning. As EV technology improves and charging infrastructure expands across Ontario, we plan to grow our electric fleet significantly. It is better for the environment, better for communities, and ultimately better for the customers we serve.
+## The Road Ahead
 
-If you are in Ontario, Nova Scotia, or New Brunswick and you have received an Amazon delivery, there is a good chance a member of the Jaatram Logistics team brought it to your door. We take that responsibility seriously, and we show up every day to earn your trust.
-    `.trim(),
+Jaatram Logistics continues to grow. We are expanding our fleet, adding electric vehicles, investing in driver training, and exploring new service areas. Our goal is to be the most reliable, professional, and community-focused delivery company in every market we serve.
+
+If you are a business looking for a reliable last-mile delivery partner, or if you want to learn more about how Dragonfly delivery works in your area, we would love to hear from you. Visit our contact page or call us at +1 (437) 727 0000.`,
   },
+
   {
-    slug: 'what-is-amazon-idc',
-    title: 'What Is an Amazon Independent Delivery Contractor (IDC)?',
-    category: 'Informational',
-    date: 'April 10, 2026',
+    slug: 'what-is-a-dragonfly-delivery-service-provider',
+    title: 'What Is a Dragonfly Delivery Service Provider (DSP)?',
+    category: 'About Us',
+    date: 'March 28, 2026',
     author: 'Jaatram Logistics Team',
     readTime: '5 min read',
     excerpt:
-      'Amazon IDCs are the backbone of last-mile delivery across Canada. Learn what it means, how we qualified, and why it matters for your deliveries.',
+      'Dragonfly Delivery Service Providers are the local companies responsible for getting packages to your door. Here is everything you need to know about what a Dragonfly DSP is, how the model works, and why Jaatram Logistics is one of Canada\'s most trusted DSPs.',
     featuredImage: '/images/team-ev-vans.jpg',
-    content: `
-If you have ever watched a delivery van pull up to your neighbour's house with an Amazon package, there is a good chance that driver works for a company called an Independent Delivery Contractor, or IDC. These are the small to mid-sized businesses that Amazon partners with to handle the final mile of delivery, and Jaatram Logistics is one of them.
+    content: `## What Is a Dragonfly DSP?
 
-## What Exactly Is an IDC?
+A Dragonfly Delivery Service Provider (DSP) is a business that has entered into a formal contract with Dragonfly to handle last-mile delivery from Dragonfly's local stations to customers' homes and businesses. DSPs are not Dragonfly employees. They are independent companies that operate their own fleets, hire their own drivers, and manage their own day-to-day operations while meeting Dragonfly's performance standards.
 
-An Amazon Independent Delivery Contractor is a business that has entered into a formal contract with Amazon to deliver packages from Amazon delivery stations to customers' homes and businesses. IDCs are not Amazon employees. They are independent companies that operate their own fleets, hire their own drivers, and manage their own day-to-day operations.
+Jaatram Logistics is a certified Dragonfly DSP operating across Ontario, Nova Scotia, and New Brunswick. We have been delivering for Dragonfly since 2022 and have grown to become one of the most trusted DSPs in the country.
 
-Amazon created the IDC model as part of its Delivery Service Partner (DSP) program, which launched in the United States and later expanded to Canada. The idea was to build a network of local delivery businesses that could operate more flexibly and efficiently than large national carriers. Instead of relying entirely on Canada Post or UPS for last-mile delivery, Amazon wanted partners who were focused exclusively on Amazon deliveries and deeply embedded in their local communities.
+## How Does the DSP Model Work?
 
-## How Does a Company Become an IDC?
+The DSP model was created to build a network of local delivery businesses that could operate more flexibly and efficiently than large national carriers. The idea is straightforward: local companies know their markets better, can hire local drivers, and can respond to community-specific challenges more effectively than any national operation.
 
-Becoming an Amazon IDC is a competitive and rigorous process. Amazon evaluates applicants on a number of criteria: their understanding of logistics operations, their financial stability, their ability to manage a team, and their commitment to Amazon's safety and service standards.
+Under the DSP model, Dragonfly provides the technology platform, the delivery volume, and the performance standards. The DSP provides the vehicles, the drivers, the local infrastructure, and the operational management.
 
-Jaatram Logistics went through this process starting in 2022. Our CEO arrived in Canada in 2019 as a student and began working as a delivery driver. By 2020, he had been promoted to supervisor, which gave him a front-row seat to how delivery operations work at the ground level. That hands-on experience was invaluable when it came time to build something of his own.
+Becoming a Dragonfly DSP is a competitive and rigorous process. Dragonfly evaluates applicants on a range of criteria including their understanding of logistics operations, their financial stability, their ability to manage a team, and their commitment to Dragonfly's safety and service standards.
 
-In July 2022, Jaatram Logistics was registered, and the first contract was secured at the Brantford Amazon station in Ontario. In 2023, we achieved formal IDC status, which opened the door to operating at additional stations across the province and eventually across the country.
+## What Does a DSP Actually Do?
 
-## What Does an IDC Actually Do?
+On a practical level, a DSP like Jaatram Logistics is responsible for everything that happens between the Dragonfly delivery station and the customer's front door. This includes staffing and training delivery drivers, maintaining a fleet of vehicles in safe and reliable condition, planning and executing delivery routes, meeting Dragonfly's delivery accuracy and safety standards, and handling customer delivery issues that arise in the field.
 
-An IDC like Jaatram Logistics is responsible for everything that happens from the moment a package arrives at an Amazon delivery station to the moment it lands at a customer's door.
+It is a significant operational responsibility. Our team of 140 professionals and 12 supervisors works seven days a week to make sure packages arrive on time and in perfect condition.
 
-This includes staffing and training delivery drivers, maintaining a fleet of vehicles, planning and executing delivery routes, meeting Amazon's delivery accuracy and safety standards, and handling customer delivery issues that arise in the field. It is a significant operational responsibility, and it requires consistent performance day after day.
+## Performance and Accountability
 
-Amazon monitors IDC performance closely. Metrics like on-time delivery rate, customer satisfaction scores, delivery attempt success, and safe driving behaviour are all tracked and reported. Underperforming IDCs can lose contracts, while high-performing ones like Jaatram Logistics earn the opportunity to expand to new stations.
+Dragonfly monitors DSP performance closely. Metrics like on-time delivery rate, customer satisfaction scores, delivery attempt success rate, and safe driving behaviour are all tracked and reported. DSPs that underperform risk losing contracts. DSPs that consistently deliver high quality service earn the opportunity to expand to new stations.
 
-## The Scale of Operations
+Jaatram Logistics maintains a 4.9-star Google rating, which reflects the care and professionalism our team brings to every delivery. Since 2022, we have completed more than 6,000 deliveries across our service areas, and we have grown from a single station in Brantford, Ontario, to nine stations across three provinces.
 
-Running an IDC operation is more complex than most people realize. At Jaatram Logistics, we currently operate across nine Amazon stations in Ontario, Nova Scotia, and New Brunswick. That means coordinating 140 delivery professionals, 12 supervisors, and 106 vehicles across multiple provinces simultaneously.
+## Our Fleet and Technology
 
-Every morning starts early. Packages arrive at the stations from Amazon's sort centres overnight. Our team sorts, scans, and loads them onto vehicles, then drivers head out on their assigned routes. A typical driver might deliver between 100 and 200 packages in a single shift, navigating city traffic, apartment buildings, rural roads, and everything in between.
+A modern DSP operation depends on the right equipment and the right technology. Jaatram Logistics operates a fleet of 106 vehicles, including 6 BrightDrop electric vans that we deploy on urban delivery routes. These electric vehicles reduce our environmental impact while delivering strong performance on dense residential routes.
 
-In the afternoon and evening, vehicles return to the stations. Any undelivered packages are processed for re-delivery, and the data from the day's deliveries is reviewed. Our supervisors analyze performance metrics, identify areas for improvement, and prepare for the next day.
+Our drivers use Dragonfly's driver app to manage routes, scan packages, upload delivery photos, and communicate with dispatch. Every vehicle is GPS-tracked, giving our supervisors full visibility into the operation at all times.
 
-## Why IDCs Exist: The Amazon Perspective
+## Our Growth Story
 
-From Amazon's perspective, the IDC model solves a real problem. Last-mile delivery is the most expensive and operationally complex part of the supply chain. By partnering with local IDCs, Amazon can scale its delivery capacity quickly without building and managing every element of the operation itself.
+Jaatram Logistics began in 2022 with a single Dragonfly station contract in Brantford, Ontario. From that founding contract, we grew steadily, adding stations, hiring drivers, building our supervisory team, and expanding our fleet. Today we operate across nine Dragonfly stations in Ontario, Nova Scotia, and New Brunswick, serving hundreds of communities.
 
-IDCs are also more agile than large carriers. A local business can hire drivers who know the neighbourhood, adapt to local road conditions, and respond to community-specific challenges in ways that a national carrier simply cannot. Amazon provides the technology, the packages, and the standards. The IDC provides the local knowledge, the vehicles, and the people.
+That growth has been driven by one thing: consistent performance. Every time we have met Dragonfly's standards, we have earned the opportunity to grow. And every time we have grown, we have brought the same culture of care and professionalism that started in Brantford to our new markets.
 
-## Why It Matters for Customers
+## What This Means for You
 
-For Amazon customers, the IDC model generally means faster, more accurate deliveries. Because IDCs operate locally, drivers become familiar with their delivery areas. They know which apartment buildings have tricky buzzers, which addresses have dogs, and which neighbourhoods have limited parking. That local knowledge translates directly into better delivery outcomes.
+If you are a customer receiving a Dragonfly delivery, knowing that a certified DSP like Jaatram Logistics is handling your package means you are getting service from a dedicated, professionally managed team. Our drivers are trained, our vehicles are maintained, and our supervisors are accountable for every delivery we make.
 
-The IDC model also means accountability. Because Amazon monitors performance closely, IDCs have a strong incentive to deliver packages correctly and on time. At Jaatram Logistics, we hold ourselves to a 4.9-star standard, and we achieve it by investing in our team, our training, and our technology.
-
-## Dragonfly: Our Other Major Partnership
-
-Alongside our Amazon IDC operations, Jaatram Logistics also delivers for Dragonfly, a growing logistics and delivery network. Our Dragonfly fleet, clearly branded on our Toyota Sienna vans, handles a separate category of deliveries that complements our Amazon operations.
-
-Operating across multiple delivery networks gives our team deeper operational experience and allows us to build a more resilient business. Whether the package is from Amazon or from a Dragonfly client, our drivers bring the same level of care and professionalism to every delivery.
-
-## Joining the IDC Network
-
-If you are interested in working for Jaatram Logistics, whether as a driver, supervisor, or operations team member, we are always looking for motivated people who take pride in their work. Check out our careers page to see current openings.
-
-If you are a business looking for reliable last-mile delivery services in Ontario, Nova Scotia, or New Brunswick, we would love to hear from you. Get in touch through our contact page or give us a call at +1 (437) 727 0000.
-
-The IDC model is reshaping last-mile delivery across Canada, and Jaatram Logistics is proud to be at the centre of it.
-    `.trim(),
+If you are a business interested in working with Jaatram Logistics, we would love to talk. Contact us at +1 (437) 727 0000 or jaatramlogistics@gmail.com to learn more about our services and coverage areas.`,
   },
+
   {
-    slug: 'amazon-delivery-coverage-ontario',
-    title: 'Amazon Delivery Coverage Areas in Ontario: Full Guide 2026',
-    category: 'Guide',
-    date: 'March 28, 2026',
+    slug: 'electric-vehicles-in-last-mile-delivery',
+    title: 'Why Electric Vehicles Are Transforming Last-Mile Delivery in Canada',
+    category: 'Industry Insights',
+    date: 'March 10, 2026',
     author: 'Jaatram Logistics Team',
     readTime: '7 min read',
     excerpt:
-      'A comprehensive guide to Amazon delivery coverage in Ontario, including which cities Jaatram Logistics serves and how to track your package.',
+      'Electric vehicles are no longer the future of delivery, they are the present. Jaatram Logistics operates BrightDrop EVs as part of our Dragonfly fleet. Here is why EVs are changing last-mile delivery and what that means for communities across Ontario, Nova Scotia, and New Brunswick.',
     featuredImage: '/images/team-outdoor.jpg',
-    content: `
-Ontario is Canada's most populous province, home to nearly 15 million people spread across urban centres, mid-size cities, and vast rural stretches. Getting Amazon packages to every corner of this province requires a well-organized network of delivery partners, and Jaatram Logistics is proud to be one of the most trusted names in that network.
+    content: `## The EV Revolution in Delivery
 
-This guide breaks down Amazon delivery coverage across Ontario, explains how the network operates, and walks you through exactly what to expect when a Jaatram Logistics driver is heading your way.
+The last-mile delivery industry is one of the largest contributors to urban vehicle emissions. Delivery vans circling residential streets, idling at apartment buildings, and navigating stop-and-go city traffic consume enormous amounts of fuel. But that is starting to change, and Jaatram Logistics is part of that change.
 
-## How Amazon Delivery Coverage Works in Ontario
+We operate BrightDrop electric delivery vehicles as part of our Dragonfly fleet. These purpose-built electric vans are designed specifically for the demands of last-mile delivery, and they are transforming the way we serve communities across Ontario.
 
-Amazon does not deliver packages from its fulfilment centres directly to your door. Instead, it moves packages through a tiered network:
+## What Are BrightDrop Electric Vehicles?
 
-**Fulfilment Centres** are the large warehouses where products are stored and orders are packed. Ontario has multiple fulfilment centres in the greater Toronto area and surrounding regions.
+BrightDrop is an electric vehicle brand developed in partnership with General Motors and purpose-built for commercial delivery operations. Unlike consumer electric vehicles adapted for delivery use, BrightDrop vehicles were designed from the ground up for the specific demands of package delivery.
 
-**Sort Centres** receive packages from fulfilment centres and sort them by postal code and delivery area before sending them to local delivery stations.
+The BrightDrop EV offers a large cargo area optimized for package loading and unloading, a low step-in height that makes multiple stops faster and safer for drivers, a competitive range that handles full-day urban delivery routes, and regenerative braking that captures energy on every stop, which is exactly what happens in a delivery route.
 
-**Delivery Stations** are the final hub in the chain. This is where Amazon's Independent Delivery Contractors like Jaatram Logistics pick up packages each morning and deliver them to customers throughout the day.
+Not all electric vehicles are equal in a delivery context. The BrightDrop's purpose-built design means our drivers can work more efficiently and safely compared to adapted consumer vehicles.
 
-Jaatram Logistics currently operates out of nine Amazon delivery stations across Ontario, giving us broad coverage across the province.
+## Why EVs Matter in Last-Mile Delivery
 
-## Areas We Serve in Ontario
+Last-mile delivery has a disproportionate environmental impact. Because delivery vehicles make frequent stops, operate at low speeds, and often idle, they generate more emissions per kilometre than highway vehicles. In dense urban areas, the cumulative impact of dozens of delivery vehicles per neighbourhood adds up quickly.
 
-Our Ontario coverage spans three main regions: the Greater Toronto Area and surrounding communities, Southwestern Ontario, and Central Ontario. Here is a breakdown of the cities and communities we serve:
+Electric delivery vehicles eliminate tailpipe emissions entirely on the routes they serve. For communities like downtown Kitchener, Scarborough, or Halifax, this is a meaningful reduction in local air pollution. Our EV routes contribute to cleaner air in the neighbourhoods we serve, and that matters to us.
 
-**Greater Toronto Area and Hamilton**
-Toronto is Canada's largest city and represents one of our highest-volume delivery areas. We serve all major Toronto neighbourhoods, from the dense downtown core to the quiet suburbs. Adjacent communities we cover include Brampton, Mississauga, Hamilton, Burlington, Oakville, Milton, and Stoney Creek, where our headquarters is located.
+Beyond emissions, EVs offer practical operational advantages. Lower fuel costs, reduced maintenance requirements due to fewer moving parts, and quieter operation that is more neighbourly in residential areas are all benefits that compound over time.
 
-The GTA is a logistically challenging area, with high-rise condominiums, heavy traffic, and a mix of residential and commercial addresses. Our team is trained specifically for urban delivery, including working with building concierge systems, managing elevator access, and handling high-volume apartment buildings.
+## How We Deploy Our EVs
 
-**Southwestern Ontario**
-Southwestern Ontario is a large, diverse region that includes major cities like London and Windsor as well as smaller communities throughout the agricultural heartland. We serve London and the surrounding area, which has seen significant population growth in recent years. Our Brantford station, where we began operating in 2022, covers Brantford and several surrounding communities in Haldimand and Brant counties.
+Jaatram Logistics currently operates six BrightDrop electric vehicles as part of our 106-vehicle fleet. We prioritize EV deployment on urban and high-density residential routes where the stop-and-go nature of delivery maximizes the efficiency benefits of electric powertrains.
 
-**Central Ontario**
-Central Ontario includes communities north of the GTA, such as Barrie, Guelph, Cambridge, and Kitchener-Waterloo. This region has grown rapidly as people have moved outward from the Toronto area in search of more affordable housing, bringing increased demand for reliable Amazon delivery service.
+Our EV drivers receive specialized training to get the most out of the vehicles, including route planning techniques that account for charging and range management. Our supervisors monitor EV performance alongside our conventional fleet and use the data to continually improve how we deploy our electric vehicles.
 
-## What to Expect on Delivery Day
+## The Broader Picture: Dragonfly's Sustainability Commitment
 
-Once your Amazon order is on its way to an Ontario delivery station served by Jaatram Logistics, here is the typical timeline and process:
+Dragonfly's investment in electric delivery infrastructure reflects a broader industry shift toward sustainable logistics. As a Dragonfly DSP, Jaatram Logistics is part of that shift. Operating BrightDrop EVs is one of the ways we demonstrate our commitment to the communities we serve, not just as a delivery company, but as a neighbour.
 
-**Morning Sorting:** Packages arrive at the delivery station early in the morning. Our team sorts them by route and loads vehicles in delivery order. This process usually takes a few hours, and drivers typically head out between 8 and 10 AM.
+We believe that a logistics company operating in a community has a responsibility to that community. Reducing emissions on local streets, employing local workers, and delivering packages with care are all expressions of that responsibility.
 
-**Route Execution:** Drivers work through their assigned routes using Amazon's routing software. The software optimizes the sequence of stops to minimize driving time and fuel consumption, which also means faster deliveries for customers.
+## What This Means for Customers
 
-**Real-Time Updates:** As your package moves through the delivery process, Amazon sends you notifications by email and the Amazon app. You can watch the driver's progress in real time on a map, and you will receive a notification the moment your package is delivered.
+For customers, an EV delivery often means a quieter, smoother experience. Our EV drivers operate the same professional standards as our entire team, but with the added benefit of zero tailpipe emissions and a quieter vehicle that is less disruptive in residential neighbourhoods.
 
-**Photo Confirmation:** Every delivery includes a photo taken at the delivery location. This photo is uploaded to your Amazon account automatically, so you can see exactly where your package was left even if you are not home.
+If you have received a delivery from one of our BrightDrop vehicles, you have experienced one of the quietest, cleanest last-mile deliveries available in Canada today.
 
-**Safe-Drop Protocol:** If no one is available to receive the package, our drivers follow Amazon's safe-drop guidelines. This means finding the most secure, weather-protected location available, such as a covered porch, a lobby, or a building mailroom. We never leave packages in exposed locations where they could be damaged or taken.
+## The Road Ahead
 
-## Delivery Times in Ontario
+The transition to electric delivery fleets will accelerate over the coming years. Battery technology is improving, charging infrastructure is expanding, and the economics of electric commercial vehicles are becoming increasingly compelling. Jaatram Logistics is committed to expanding our EV fleet as our operations grow.
 
-Jaatram Logistics operates seven days a week, 8 AM to 8 PM, across all Ontario stations. This includes weekends and most holidays. Amazon's standard delivery promise for Prime members is typically one to two days, and our goal is to complete same-day and next-day deliveries consistently across our service areas.
+We see electric vehicles not just as a sustainability initiative, but as a competitive advantage. Cleaner, quieter, more efficient delivery is better for our drivers, better for our customers, and better for the communities we serve.
 
-Delivery times can vary depending on the volume of packages at a given station, weather conditions, and the distance from the station to the delivery address. In dense urban areas like downtown Toronto, deliveries may happen as early as 9 or 10 AM. In rural or outlying areas, deliveries are more likely to happen in the afternoon or early evening.
-
-## What Happens If Your Package Is Not Delivered?
-
-If your Amazon tracking shows that a delivery was attempted but unsuccessful, or if you receive a notification saying your package could not be delivered, there are a few things that may have happened:
-
-The driver may have been unable to access the delivery location, for example if a building requires a fob or code and no one was available to grant access.
-
-The address on the package may have been unclear or difficult to locate. In this case, the driver may have taken a photo of the nearest accessible location and flagged the delivery for review.
-
-In some cases, weather or road conditions may affect delivery timing, and a package may be rescheduled for the following day.
-
-If you have concerns about a specific delivery, the best first step is to contact Amazon customer service through your account. If you believe there is a specific issue with delivery in your area, you are also welcome to contact us directly at +1 (437) 727 0000.
-
-## Our Commitment to Ontario Communities
-
-Jaatram Logistics was founded in Ontario, and this province is the heart of our operation. Our CEO started as a delivery driver in Ontario before building the company from the ground up. Many of our drivers and supervisors are members of the communities they serve, which gives us a genuine connection to the areas we operate in.
-
-We are invested in providing a delivery experience that makes Ontario residents confident in their Amazon orders. That means showing up on time, treating every package with care, and maintaining the professional standards that have earned us a 4.9-star rating across thousands of deliveries.
-
-## Tracking Your Ontario Amazon Delivery
-
-You can track any Amazon delivery in Ontario through your Amazon account. Log in, go to your orders, and click on the order you want to track. You will see a map with the driver's current location and an estimated delivery window.
-
-For questions about your delivery or to request a quote for logistics services, visit our contact page or call us at +1 (437) 727 0000. Our team is available Monday through Sunday, 8 AM to 8 PM.
-
-Ontario is a big province, and delivering to every corner of it is a big responsibility. We take that responsibility seriously every single day.
-    `.trim(),
+To learn more about our operations and coverage areas, visit our delivery areas page or contact us at +1 (437) 727 0000.`,
   },
+
   {
-    slug: 'eco-friendly-delivery-ev-fleet',
-    title: "Eco-Friendly Delivery: Our EV Fleet and Why It Matters",
-    category: 'Brand',
-    date: 'March 15, 2026',
+    slug: 'growing-your-delivery-career-jaatram-logistics',
+    title: 'Building a Career in Delivery: What It Is Like to Work at Jaatram Logistics',
+    category: 'Careers',
+    date: 'February 20, 2026',
     author: 'Jaatram Logistics Team',
     readTime: '5 min read',
     excerpt:
-      'Our six electric vehicles are more than just a green choice. They are part of a broader commitment to sustainable logistics across Ontario.',
-    featuredImage: '/images/team-ev-vans.jpg',
-    content: `
-Delivery vans are everywhere. In cities like Toronto, Hamilton, and Halifax, they navigate streets all day long, stopping and starting, idling in traffic, and consuming fuel at a rate that adds up quickly across a large fleet. It is one of the less visible but very real environmental costs of the e-commerce boom. At Jaatram Logistics, we are working to change that.
+      'Jaatram Logistics has grown from a small team to 140 delivery professionals in just a few years. Here is what it is like to build a career with one of Canada\'s fastest-growing Dragonfly delivery companies.',
+    featuredImage: '/images/team-indoor.jpg',
+    content: `## A Company Built on People
 
-Our fleet of six BrightDrop electric vehicles, the same Chevrolet-built EV vans you may have seen on the road, represents our commitment to reducing the environmental footprint of last-mile delivery in the communities we serve.
+Jaatram Logistics started in 2022 with a small team and a single Dragonfly station contract in Brantford, Ontario. Today, we are a team of 140 delivery professionals and 12 experienced supervisors serving nine stations across Ontario, Nova Scotia, and New Brunswick. That growth was only possible because of the people who joined us and stayed.
 
-## Why Last-Mile Delivery Has an Emissions Problem
+We believe that a great delivery company starts with great people. Every driver we hire, every supervisor we promote, and every team member who chooses to build their career with us is part of what makes Jaatram Logistics one of the most trusted Dragonfly DSPs in Canada.
 
-Last-mile delivery is, by its nature, stop-and-go work. A driver might make 150 stops in a single shift, which means constant acceleration and braking in residential neighbourhoods and downtown cores. Traditional internal combustion engines are particularly inefficient in this type of driving. A lot of fuel is burned and a lot of emissions are produced for a relatively small amount of forward movement.
+## What Delivery Drivers Do at Jaatram
 
-In Canada, transportation is one of the largest sources of greenhouse gas emissions. Delivery vehicles, which spend long hours on urban routes, contribute meaningfully to air quality issues in cities. Diesel fumes, carbon monoxide, and particulate matter from heavy vehicles affect not just the environment but the health of the people who live and work along delivery routes.
+Our delivery drivers are the core of everything we do. On a typical day, a Jaatram driver will arrive at the station, receive their route assignment, sort and load their packages, and then head out to deliver between 100 and 180 stops across residential and commercial areas.
 
-## The BrightDrop EV: Built for Last-Mile Delivery
+It is a role that requires physical stamina, time management, local knowledge, and a customer-first mindset. Our drivers represent Jaatram Logistics, and more broadly the Dragonfly brand, every time they step out of their van. That is a responsibility we take seriously, and we make sure our team is supported, trained, and equipped to meet it.
 
-Not all electric vehicles are equal, and not all are suited to the specific demands of package delivery. The BrightDrop EV, developed in partnership with General Motors and Amazon, was designed specifically for last-mile delivery operations.
+## Training and Onboarding
 
-These vans are purpose-built with features that make a driver's job easier and safer. The cargo area is organized for efficient package loading and retrieval. The driver cab is ergonomically designed for someone who gets in and out of the vehicle dozens of times per day. And the electric powertrain means no emissions, lower noise levels on residential streets, and significantly reduced operating costs compared to a diesel van.
+Every new driver at Jaatram Logistics goes through a structured onboarding process. This includes route familiarization, safe driving training, package handling protocols, use of the Dragonfly driver app, customer interaction training, and a review of Dragonfly's delivery standards.
 
-Each BrightDrop in our fleet can travel approximately 250 kilometres on a full charge, which is more than sufficient for a full day of urban delivery. Our charging infrastructure at the station means vehicles are fully charged and ready each morning.
+We do not put drivers on routes until they are confident and prepared. Our supervisors work closely with new hires during their first weeks to provide feedback, support, and guidance. We want every driver to feel capable and supported from day one.
 
-## The Environmental Impact
+## Growth Opportunities
 
-Six electric vans may sound like a small number in the context of a 106-vehicle fleet, but the impact adds up quickly.
+One of the things we are most proud of at Jaatram Logistics is our culture of internal growth. Many of our supervisors started as delivery drivers. As the company has expanded to new stations and new provinces, we have promoted from within wherever possible.
 
-A typical delivery van consumes roughly 15 to 20 litres of fuel per 100 kilometres. On a route with 150 stops across 80 to 100 kilometres, that is 12 to 20 litres of fuel per vehicle per day. Over a year of operations, a single van might consume 4,000 to 5,000 litres of fuel and produce several tonnes of CO2.
+If you join Jaatram Logistics as a driver and demonstrate reliability, leadership, and a commitment to quality, there are real pathways to supervision and management roles. We are a growing company, and growing companies need more leaders.
 
-Each EV we operate eliminates that output entirely. Over the course of a year, our six BrightDrop vans collectively prevent the emission of approximately 60 to 70 tonnes of CO2 that would otherwise be released by equivalent diesel vehicles. That is the equivalent of taking about 15 cars off the road permanently.
+## What We Look For
 
-## A Step, Not a Destination
+We hire people who are reliable, professional, and genuinely care about doing a good job. Specific experience in delivery is helpful but not required. We train the right people. What we cannot train is attitude, work ethic, and care.
 
-We are honest about where we are in this journey. Six EVs out of 106 total vehicles is a start, not a finish. The majority of our fleet still runs on conventional fuel, and we know that full electrification is a long-term project that requires charging infrastructure, vehicle availability, and capital investment.
+We look for drivers who show up on time, communicate clearly, take their routes seriously, and represent our company well in the communities we serve. If that sounds like you, we would love to talk.
 
-What we can say is that we are committed to growing our electric fleet as quickly as it is practical to do so. Every vehicle replacement decision we make now considers the EV option first. As charging networks expand across Ontario and Atlantic Canada, and as the range and capacity of commercial EVs improves, we expect our zero-emission percentage to grow significantly year over year.
+## The Culture at Jaatram
 
-## Reducing Emissions Beyond the Fleet
+We are a close-knit team. Our crew has grown quickly, but we have worked hard to maintain a culture where people know each other, look out for each other, and take pride in the work they do together.
 
-Vehicle electrification is the most visible part of our sustainability effort, but it is not the only one. Route optimization software plays a significant role in reducing our overall fuel consumption. By planning smarter routes that minimize unnecessary distance and avoid congestion, we reduce fuel use across the entire fleet, not just the EVs.
+We celebrate team milestones, recognize strong performers, and make sure our drivers feel valued. Delivery can be a demanding job, especially in winter or during peak periods. We try to make sure our team is supported through those challenging times, not just during the easy ones.
 
-Our supervisors also monitor driver behaviour metrics like harsh braking, rapid acceleration, and idle time. Better driving habits reduce both fuel consumption and vehicle wear, which keeps vehicles on the road longer and reduces the waste associated with premature replacements.
+## Benefits of Working at Jaatram Logistics
 
-## What This Means for Ontario and Atlantic Canada
+Working at Jaatram Logistics means being part of a certified Dragonfly DSP operation with a strong track record and a clear growth trajectory. It means access to professional training, a structured work schedule, modern equipment including electric vehicles, and a team that genuinely cares.
 
-The communities we deliver in are not abstractions to us. Our team lives and works in these cities and towns. When we invest in cleaner vehicles and better routes, we are investing in the air quality of our own neighbourhoods. That matters to us personally, not just professionally.
+We offer competitive compensation, consistent hours, and a supportive work environment. As we continue to expand, we expect to offer even more opportunities for our team members.
 
-Ontario has set ambitious targets for reducing transportation emissions, and the provincial government has offered incentives for commercial EV adoption. We are taking advantage of those programs where applicable and working with our partners to understand what additional support is available for fleet electrification.
+## How to Apply
 
-In Nova Scotia and New Brunswick, where our operations are newer, we are designing our fleet strategy with sustainability in mind from the start. As those operations grow, EVs will be part of the mix from day one where possible.
+If you are interested in joining the Jaatram Logistics team, visit our careers page at jaatramlogistics.com/careers or email your resume to jaatramlogistics@gmail.com with the subject line matching the role you are applying for.
 
-## Our Team Is Part of the Story
-
-We are proud that our drivers have embraced the EV program. Operating a BrightDrop requires a slight adjustment in habits, particularly around monitoring charge levels and planning routes around charging stations when needed. Our team has adapted well, and the feedback from drivers who operate the EVs is overwhelmingly positive. Quieter rides, smoother acceleration, and no stopping for fuel during a shift are meaningful quality-of-life improvements.
-
-Our drivers are also ambassadors for sustainable delivery in the communities they serve. When residents see a Jaatram Logistics electric van on their street, we hope it sparks a conversation about what environmentally responsible last-mile delivery can look like.
-
-## Join Us
-
-If you are interested in working for a company that takes sustainability seriously, we are always looking for team members who share our values. Check out our careers page for current openings.
-
-And if you have received a delivery from one of our EVs, thank you. You are part of the reason we keep pushing forward.
-    `.trim(),
+We are always looking for great people, and we would love to hear from you. Whether you are looking for a new career, a fresh start, or a company you can grow with, Jaatram Logistics might be exactly what you are looking for.`,
   },
 ];
 

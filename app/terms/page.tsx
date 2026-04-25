@@ -36,7 +36,7 @@ export default function TermsPage() {
             <div>
               <h2 className="text-xl font-bold text-navy mb-3">2. Our Services</h2>
               <p>
-                Jaatram Logistics provides last-mile delivery services as a certified Amazon Independent Delivery Contractor (IDC) operating across Ontario, Nova Scotia, and New Brunswick. We also provide delivery services in partnership with Dragonfly and other logistics clients.
+                Jaatram Logistics provides last-mile delivery services as a certified Dragonfly Delivery Service Provider (DSP) operating across Ontario, Nova Scotia, and New Brunswick. We also provide delivery services in partnership with Dragonfly and other logistics clients.
               </p>
               <p className="mt-3">
                 Our website allows users to request delivery quotes, contact our team, and learn about our services. Submission of a quote request does not constitute a binding contract. A contract is only formed upon written agreement between Jaatram Logistics and the client.
@@ -88,7 +88,7 @@ export default function TermsPage() {
             <div>
               <h2 className="text-xl font-bold text-navy mb-3">7. Third-Party Services</h2>
               <p>
-                Our services operate in partnership with Amazon Canada, Dragonfly, and other logistics networks. The terms and conditions of those partnerships may also apply to deliveries handled through those networks. Jaatram Logistics is not responsible for the terms, policies, or actions of third-party partners.
+                Our services operate in partnership with Dragonfly and other logistics networks. The terms and conditions of those partnerships may also apply to deliveries handled through those networks. Jaatram Logistics is not responsible for the terms, policies, or actions of third-party partners.
               </p>
             </div>
 
