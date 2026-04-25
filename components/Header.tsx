@@ -22,7 +22,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5 shrink-0">
             <Image
-              src="/images/logo.png"
+              src="/images/Logo.png"
               alt="Jaatram Logistics"
               width={40}
               height={40}

@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import QuoteForm from '@/components/QuoteForm';
 
 export const metadata: Metadata = {
-  title: 'Contact Us',
+  title: 'Contact Jaatram Logistics | Dragonfly Delivery Partner',
   description:
-    'Contact Jaatram Logistics. Call +1 (437) 727 0000 or email jaatramlogistics@gmail.com. Headquarters at 332 Winona Road, Stoney Creek, ON. Mon–Sun 8AM–8PM.',
+    'Contact Jaatram Logistics at +1 (437) 727 0000 or jaatramlogistics@gmail.com. Headquartered in Stoney Creek, Ontario. Available Monday to Sunday, 8AM to 8PM.',
 };
 
 const contactCards = [

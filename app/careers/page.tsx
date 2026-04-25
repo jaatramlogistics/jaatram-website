@@ -3,9 +3,9 @@ import Link from 'next/link';
 import CTABanner from '@/components/CTABanner';
 
 export const metadata: Metadata = {
-  title: 'Careers | Join the Jaatram Logistics Team',
+  title: 'Delivery Driver & Logistics Careers | Jaatram Logistics',
   description:
-    'Join Jaatram Logistics, a fast-growing Dragonfly DSP operating across Ontario, Nova Scotia, and New Brunswick. We are hiring delivery drivers, supervisors, and operations staff.',
+    'Join the Jaatram Logistics team. We are hiring delivery drivers, supervisors, and operations staff across Ontario, Nova Scotia, and New Brunswick. Be part of a certified Dragonfly DSP with 140+ team members.',
 };
 
 const openings = [
@@ -201,6 +201,31 @@ export default function CareersPage() {
             </a>{' '}
             Monday through Sunday, 8 AM to 8 PM.
           </p>
+        </div>
+      </section>
+
+      {/* Internal links */}
+      <section className="py-10 bg-light-blue">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-lg font-black text-navy mb-6">Where We Operate</h2>
+          <div className="flex flex-wrap justify-center gap-3 mb-6">
+            {[
+              { label: 'Windsor', href: '/delivery/ontario/windsor' },
+              { label: 'Kitchener', href: '/delivery/ontario/kitchener' },
+              { label: 'Vaughan', href: '/delivery/ontario/vaughan' },
+              { label: 'Scarborough', href: '/delivery/ontario/scarborough' },
+              { label: 'Brantford', href: '/delivery/ontario/brantford' },
+              { label: 'Sarnia', href: '/delivery/ontario/sarnia' },
+              { label: 'Pembroke', href: '/delivery/ontario/pembroke' },
+              { label: 'Halifax', href: '/delivery/nova-scotia/halifax' },
+              { label: 'Saint John', href: '/delivery/new-brunswick/saint-john' },
+            ].map((c) => (
+              <a key={c.href} href={c.href} className="bg-white text-navy text-sm font-semibold px-4 py-2 rounded-full hover:bg-navy hover:text-white transition-colors">
+                {c.label}
+              </a>
+            ))}
+          </div>
+          <a href="/about" className="text-gold text-sm font-bold hover:underline">Learn more about Jaatram Logistics →</a>
         </div>
       </section>
 

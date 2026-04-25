@@ -12,18 +12,20 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://jaatramlogistics.com'),
   title: {
-    default: 'Jaatram Logistics | Dragonfly Delivery in Ontario, Nova Scotia & New Brunswick',
+    default: 'Jaatram Logistics | Certified Dragonfly Delivery Partner in Canada',
     template: '%s | Jaatram Logistics',
   },
   description:
-    'Jaatram Logistics is a certified Dragonfly Delivery Service Provider serving Ontario, Nova Scotia, and New Brunswick since 2022. 140+ team members, 4.9-star rating, 6,000+ deliveries.',
+    'Jaatram Logistics is a certified Dragonfly Delivery Service Provider operating across Ontario, Nova Scotia, and New Brunswick since 2022. 140+ professionals, 106-vehicle fleet, 4.9-star rating, 6,000+ deliveries. Get a free quote today.',
   keywords: [
-    'Dragonfly delivery Canada',
-    'last mile delivery Ontario',
+    'Dragonfly delivery partner Canada',
     'Dragonfly DSP Ontario',
+    'last mile delivery Ontario',
+    'Dragonfly delivery Nova Scotia',
+    'Dragonfly delivery New Brunswick',
     'logistics company Ontario',
-    'package delivery Nova Scotia',
-    'courier New Brunswick',
+    'package delivery Canada',
+    'Dragonfly certified delivery',
   ],
   openGraph: {
     type: 'website',

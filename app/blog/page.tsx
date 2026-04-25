@@ -4,9 +4,9 @@ import Image from 'next/image';
 import { blogPosts } from '@/data/blog';
 
 export const metadata: Metadata = {
-  title: 'Blog | Logistics Tips and Guides',
+  title: 'Logistics Blog | Dragonfly Delivery Insights & Guides | Jaatram Logistics',
   description:
-    "Read Jaatram Logistics' blog for insights on Dragonfly last-mile delivery, logistics trends, and shipping guides for Ontario, Nova Scotia, and New Brunswick.",
+    "Read the Jaatram Logistics blog for expert insights on Dragonfly last-mile delivery, electric vehicle logistics, careers in delivery, and how our DSP operations work across three Canadian provinces.' blog for insights on Dragonfly last-mile delivery, logistics trends, and shipping guides for Ontario, Nova Scotia, and New Brunswick.",
 };
 
 export default function BlogPage() {

@@ -5,7 +5,7 @@ import { provinces, getCitiesByProvince } from '@/data/cities';
 export const metadata: Metadata = {
   title: 'Delivery Areas: Ontario, Nova Scotia & New Brunswick',
   description:
-    'Jaatram Logistics delivers packages across Ontario, Nova Scotia, and New Brunswick. Find your city and get a free delivery quote today.',
+    'Jaatram Logistics delivers across Ontario (Windsor, Kitchener, Vaughan, Scarborough, Brantford, Sarnia, Pembroke), Nova Scotia (Halifax), and New Brunswick (Saint John). Certified Dragonfly DSP since 2022.',
 };
 
 export default function DeliveryPage() {
@@ -59,6 +59,25 @@ export default function DeliveryPage() {
                 </div>
               );
             })}
+          </div>
+
+          {/* Internal links for SEO */}
+          <div className="mt-16 pt-10 border-t border-mid-blue/20">
+            <h2 className="text-xl font-black text-navy mb-6 text-center">Explore More</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <Link href="/services" className="bg-light-blue rounded-2xl p-5 hover:bg-navy group transition-colors">
+                <p className="font-bold text-navy group-hover:text-white transition-colors mb-1">Our Services</p>
+                <p className="text-xs text-gray-500 group-hover:text-white/60 transition-colors">Last-mile delivery, tracking, fleet transport and more.</p>
+              </Link>
+              <Link href="/quote" className="bg-gold/10 rounded-2xl p-5 hover:bg-gold group transition-colors">
+                <p className="font-bold text-navy group-hover:text-navy transition-colors mb-1">Get a Free Quote</p>
+                <p className="text-xs text-gray-500 group-hover:text-navy/70 transition-colors">Request a shipping quote. Response within 24 hours.</p>
+              </Link>
+              <Link href="/about" className="bg-light-blue rounded-2xl p-5 hover:bg-navy group transition-colors">
+                <p className="font-bold text-navy group-hover:text-white transition-colors mb-1">About Jaatram</p>
+                <p className="text-xs text-gray-500 group-hover:text-white/60 transition-colors">Learn about our team, fleet, and Dragonfly partnership.</p>
+              </Link>
+            </div>
           </div>
         </div>
       </section>

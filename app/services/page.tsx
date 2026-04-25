@@ -3,9 +3,9 @@ import Link from 'next/link';
 import CTABanner from '@/components/CTABanner';
 
 export const metadata: Metadata = {
-  title: 'Our Services',
+  title: 'Dragonfly Delivery Services | Last-Mile, Tracking & Fleet | Jaatram Logistics',
   description:
-    'Jaatram Logistics offers last-mile delivery, vehicle transport, real-time tracking, secure package handling, and eco-friendly delivery across Ontario, Nova Scotia, and New Brunswick.',
+    'Jaatram Logistics offers certified Dragonfly last-mile delivery, real-time GPS tracking, secure package handling, and eco-friendly EV delivery across Ontario, Nova Scotia, and New Brunswick. Get a free quote today.',
 };
 
 const services = [
@@ -89,6 +89,22 @@ export default function ServicesPage() {
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
+            </Link>
+          </div>
+
+          {/* Internal links */}
+          <div className="mt-16 pt-10 border-t border-mid-blue/20 grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <Link href="/delivery" className="bg-light-blue rounded-2xl p-5 hover:bg-navy group transition-colors">
+              <p className="font-bold text-navy group-hover:text-white transition-colors mb-1">Delivery Areas</p>
+              <p className="text-xs text-gray-500 group-hover:text-white/60 transition-colors">Windsor, Kitchener, Halifax, Saint John and more.</p>
+            </Link>
+            <Link href="/about" className="bg-light-blue rounded-2xl p-5 hover:bg-navy group transition-colors">
+              <p className="font-bold text-navy group-hover:text-white transition-colors mb-1">About Our Team</p>
+              <p className="text-xs text-gray-500 group-hover:text-white/60 transition-colors">140+ professionals, 106 vehicles, Dragonfly certified since 2022.</p>
+            </Link>
+            <Link href="/careers" className="bg-light-blue rounded-2xl p-5 hover:bg-navy group transition-colors">
+              <p className="font-bold text-navy group-hover:text-white transition-colors mb-1">Join Our Team</p>
+              <p className="text-xs text-gray-500 group-hover:text-white/60 transition-colors">We are hiring delivery drivers and supervisors across 3 provinces.</p>
             </Link>
           </div>
         </div>

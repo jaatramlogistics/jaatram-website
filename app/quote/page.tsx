@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import QuoteForm from '@/components/QuoteForm';
 
 export const metadata: Metadata = {
-  title: 'Get a Free Shipping Quote',
+  title: 'Get a Free Delivery Quote | Jaatram Logistics',
   description:
-    'Request a free logistics shipping quote from Jaatram Logistics. Serving Ontario, Nova Scotia, and New Brunswick. Response within 24 hours.',
+    'Request a free delivery quote from Jaatram Logistics, a certified Dragonfly Delivery Service Provider. Serving Ontario, Nova Scotia, and New Brunswick. Fast response within 24 hours.',
 };
 
 export default function QuotePage() {

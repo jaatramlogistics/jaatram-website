@@ -42,22 +42,22 @@ const provinces = [
     name: 'Ontario',
     slug: 'ontario',
     flag: '🏙️',
-    desc: '150+ cities covered across Ontario from our Stoney Creek headquarters.',
-    cities: ['Toronto', 'Brampton', 'Hamilton', 'Mississauga', 'London'],
+    desc: 'Serving 7 cities across Ontario from our Stoney Creek headquarters.',
+    cities: ['Windsor', 'Kitchener', 'Vaughan', 'Scarborough', 'Brantford', 'Sarnia', 'Pembroke'],
   },
   {
     name: 'Nova Scotia',
     slug: 'nova-scotia',
     flag: '🌊',
-    desc: 'Full coverage across Nova Scotia from Halifax to the South Shore.',
-    cities: ['Halifax', 'Dartmouth', 'Sydney', 'Truro', 'New Glasgow'],
+    desc: 'Full Dragonfly delivery coverage across the Halifax Regional Municipality.',
+    cities: ['Halifax'],
   },
   {
     name: 'New Brunswick',
     slug: 'new-brunswick',
     flag: '🌲',
-    desc: "Serving New Brunswick's major cities and rural communities with equal care.",
-    cities: ['Moncton', 'Fredericton', 'Saint John', 'Dieppe', 'Riverview'],
+    desc: 'Serving Saint John and the Greater Saint John region with professional Dragonfly delivery.',
+    cities: ['Saint John'],
   },
 ];
 
@@ -163,23 +163,14 @@ export default function HomePage() {
       <section className="bg-white border-b border-mid-blue/30 py-8">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">Official Partner Of</p>
-          <div className="flex items-center justify-center gap-10 flex-wrap">
-            <div className="flex items-center gap-3 bg-light-blue px-6 py-3 rounded-2xl">
-              <div className="w-8 h-8 bg-[#FF9900] rounded-lg flex items-center justify-center">
-                <span className="text-white font-black text-base">a</span>
+          <div className="flex items-center justify-center">
+            <div className="flex items-center gap-3 bg-light-blue px-8 py-4 rounded-2xl">
+              <div className="w-10 h-10 bg-[#00C48C] rounded-xl flex items-center justify-center">
+                <span className="text-white font-black text-lg">D</span>
               </div>
               <div className="text-left">
-                <p className="text-navy font-black text-base leading-none">Dragonfly</p>
-                <p className="text-xs text-gray-400 mt-0.5">IDC Certified</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-3 bg-light-blue px-6 py-3 rounded-2xl">
-              <div className="w-8 h-8 bg-[#00C48C] rounded-lg flex items-center justify-center">
-                <span className="text-white font-black text-base">D</span>
-              </div>
-              <div className="text-left">
-                <p className="text-navy font-black text-base leading-none">Dragonfly</p>
-                <p className="text-xs text-gray-400 mt-0.5">Delivery Partner</p>
+                <p className="text-navy font-black text-lg leading-none">Dragonfly</p>
+                <p className="text-xs text-gray-400 mt-0.5">Certified Delivery Service Provider</p>
               </div>
             </div>
           </div>

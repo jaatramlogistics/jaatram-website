@@ -4,9 +4,9 @@ import CTABanner from '@/components/CTABanner';
 import StatsBar from '@/components/StatsBar';
 
 export const metadata: Metadata = {
-  title: 'About Us | Jaatram Logistics',
+  title: 'About Jaatram Logistics | Certified Dragonfly Delivery Partner Since 2022',
   description:
-    "Learn about Jaatram Logistics, founded in 2022 by a student who became one of Ontario's most trusted Dragonfly DSP operators. 140 professionals, 9 stations, 3 provinces.",
+    "Learn about Jaatram Logistics, a certified Dragonfly Delivery Service Provider founded in 2022. 140+ delivery professionals, 106-vehicle fleet with BrightDrop EVs, 4.9-star Google rating across Ontario, Nova Scotia, and New Brunswick.'s most trusted Dragonfly DSP operators. 140 professionals, 9 stations, 3 provinces.",
 };
 
 const milestones = [
@@ -294,6 +294,26 @@ export default function AboutPage() {
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Internal links section */}
+      <section className="py-12 bg-light-blue">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-xl font-black text-navy text-center mb-8">Explore Jaatram Logistics</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            {[
+              { label: 'Our Services', sub: 'Last-mile, tracking, fleet', href: '/services' },
+              { label: 'Delivery Areas', sub: 'Windsor, Halifax, Saint John & more', href: '/delivery' },
+              { label: 'Careers', sub: 'Join our 140-person team', href: '/careers' },
+              { label: 'Get a Quote', sub: 'Free quote in 24 hours', href: '/quote' },
+            ].map((l) => (
+              <a key={l.href} href={l.href} className="bg-white rounded-2xl p-4 hover:shadow-md transition-shadow group">
+                <p className="font-bold text-navy group-hover:text-gold transition-colors text-sm">{l.label}</p>
+                <p className="text-xs text-gray-400 mt-1">{l.sub}</p>
+              </a>
+            ))}
           </div>
         </div>
       </section>

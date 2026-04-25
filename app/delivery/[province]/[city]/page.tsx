@@ -11,37 +11,156 @@ interface Props {
   params: { province: string; city: string };
 }
 
+// Cities we previously served — now show Coming Soon
+const comingSoonCities: { province: string; city: string; name: string }[] = [
+  { province: 'ontario', city: 'toronto', name: 'Toronto' },
+  { province: 'ontario', city: 'brampton', name: 'Brampton' },
+  { province: 'ontario', city: 'mississauga', name: 'Mississauga' },
+  { province: 'ontario', city: 'hamilton', name: 'Hamilton' },
+  { province: 'ontario', city: 'london', name: 'London' },
+  { province: 'ontario', city: 'barrie', name: 'Barrie' },
+  { province: 'ontario', city: 'ottawa', name: 'Ottawa' },
+  { province: 'ontario', city: 'oshawa', name: 'Oshawa' },
+  { province: 'nova-scotia', city: 'dartmouth', name: 'Dartmouth' },
+  { province: 'nova-scotia', city: 'sydney', name: 'Sydney' },
+  { province: 'nova-scotia', city: 'truro', name: 'Truro' },
+  { province: 'nova-scotia', city: 'new-glasgow', name: 'New Glasgow' },
+  { province: 'nova-scotia', city: 'kentville', name: 'Kentville' },
+  { province: 'nova-scotia', city: 'bridgewater', name: 'Bridgewater' },
+  { province: 'nova-scotia', city: 'amherst', name: 'Amherst' },
+  { province: 'nova-scotia', city: 'antigonish', name: 'Antigonish' },
+  { province: 'nova-scotia', city: 'yarmouth', name: 'Yarmouth' },
+  { province: 'new-brunswick', city: 'moncton', name: 'Moncton' },
+  { province: 'new-brunswick', city: 'fredericton', name: 'Fredericton' },
+  { province: 'new-brunswick', city: 'bathurst', name: 'Bathurst' },
+  { province: 'new-brunswick', city: 'miramichi', name: 'Miramichi' },
+  { province: 'new-brunswick', city: 'edmundston', name: 'Edmundston' },
+  { province: 'new-brunswick', city: 'campbellton', name: 'Campbellton' },
+  { province: 'new-brunswick', city: 'dieppe', name: 'Dieppe' },
+  { province: 'new-brunswick', city: 'riverview', name: 'Riverview' },
+  { province: 'new-brunswick', city: 'sussex', name: 'Sussex' },
+];
+
 // ── Generate all city pages at build time ──────────────────────────────────
 export async function generateStaticParams() {
-  return cities.map((city) => ({
+  const activeCities = cities.map((city) => ({
     province: city.province,
     city: city.slug,
   }));
+  const comingSoon = comingSoonCities.map((c) => ({
+    province: c.province,
+    city: c.city,
+  }));
+  return [...activeCities, ...comingSoon];
 }
 
 // ── SEO metadata per city ──────────────────────────────────────────────────
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = getCityBySlug(params.city);
-  if (!city) return {};
-
-  return {
-    title: city.metaTitle,
-    description: city.metaDescription,
-    openGraph: {
+  if (city) {
+    return {
       title: city.metaTitle,
       description: city.metaDescription,
-      type: 'website',
-    },
-    alternates: {
-      canonical: `/delivery/${city.province}/${city.slug}`,
-    },
-  };
+      openGraph: {
+        title: city.metaTitle,
+        description: city.metaDescription,
+        type: 'website',
+      },
+      alternates: {
+        canonical: `/delivery/${city.province}/${city.slug}`,
+      },
+    };
+  }
+  const cs = comingSoonCities.find((c) => c.city === params.city);
+  if (cs) {
+    return {
+      title: `Dragonfly Delivery in ${cs.name} — Coming Soon | Jaatram Logistics`,
+      description: `Jaatram Logistics is expanding Dragonfly delivery services to ${cs.name}. Join the waitlist and be the first to know when we launch in your area.`,
+    };
+  }
+  return {};
+}
+
+// ── Coming Soon component ───────────────────────────────────────────────────
+function ComingSoonPage({ cityName, province }: { cityName: string; province: string }) {
+  const provinceLabel =
+    province === 'ontario' ? 'Ontario' :
+    province === 'nova-scotia' ? 'Nova Scotia' : 'New Brunswick';
+
+  return (
+    <>
+      <section className="bg-hero-gradient py-20 text-center">
+        <div className="max-w-2xl mx-auto px-4 sm:px-6">
+          <div className="inline-flex items-center gap-2 bg-gold/20 text-gold text-xs font-bold px-3 py-1.5 rounded-full mb-6 uppercase tracking-wider">
+            <span className="w-1.5 h-1.5 bg-gold rounded-full animate-pulse" />
+            Expanding Soon
+          </div>
+          <h1 className="text-4xl sm:text-5xl font-black text-white mb-4">
+            {cityName}, <span className="text-gold">{provinceLabel}</span>
+          </h1>
+          <p className="text-white/70 text-lg mb-8">
+            We are expanding our Dragonfly delivery services to {cityName}. Our team is working hard to bring the same reliable, professional service to your community.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <Link
+              href="/contact"
+              className="bg-gold hover:bg-gold/90 text-navy font-bold px-8 py-3 rounded-xl transition-colors"
+            >
+              Get Notified When We Launch
+            </Link>
+            <Link
+              href={`/delivery/${province}`}
+              className="border-2 border-white/30 hover:border-gold text-white hover:text-gold font-bold px-8 py-3 rounded-xl transition-colors"
+            >
+              View Active {provinceLabel} Cities
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl font-black text-navy mb-3">We Are Currently Serving These Cities</h2>
+          <p className="text-gray-500 mb-8">Our active delivery areas across three provinces. Click a city to learn more.</p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 max-w-xl mx-auto">
+            {[
+              { name: 'Windsor, ON', href: '/delivery/ontario/windsor' },
+              { name: 'Sarnia, ON', href: '/delivery/ontario/sarnia' },
+              { name: 'Kitchener, ON', href: '/delivery/ontario/kitchener' },
+              { name: 'Brantford, ON', href: '/delivery/ontario/brantford' },
+              { name: 'Vaughan, ON', href: '/delivery/ontario/vaughan' },
+              { name: 'Scarborough, ON', href: '/delivery/ontario/scarborough' },
+              { name: 'Pembroke, ON', href: '/delivery/ontario/pembroke' },
+              { name: 'Halifax, NS', href: '/delivery/nova-scotia/halifax' },
+              { name: 'Saint John, NB', href: '/delivery/new-brunswick/saint-john' },
+            ].map((c) => (
+              <Link
+                key={c.href}
+                href={c.href}
+                className="bg-light-blue hover:bg-mid-blue/20 text-navy font-semibold text-sm py-2.5 px-4 rounded-xl transition-colors"
+              >
+                {c.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <CTABanner />
+    </>
+  );
 }
 
 // ── Page component ─────────────────────────────────────────────────────────
 export default function CityPage({ params }: Props) {
   const city = getCityBySlug(params.city);
-  if (!city) notFound();
+
+  // Show coming soon for known-but-inactive cities
+  if (!city) {
+    const cs = comingSoonCities.find((c) => c.city === params.city);
+    if (cs) return <ComingSoonPage cityName={cs.name} province={cs.province} />;
+    notFound();
+  }
 
   const province = getProvinceBySlug(city.province);
   const nearbyCities = getNearbyCities(city, 3);
@@ -303,15 +422,31 @@ export default function CityPage({ params }: Props) {
         </section>
       )}
 
-      {/* Province link */}
-      <section className="py-8 bg-white border-t border-mid-blue/30">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">
-          <p className="text-sm text-gray-500">
+      {/* Province link + internal links */}
+      <section className="py-10 bg-white border-t border-mid-blue/30">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6">
+          <p className="text-sm text-gray-500 text-center mb-8">
             Looking for Dragonfly delivery across all of {city.provinceLabel}?{' '}
             <Link href={`/delivery/${city.province}`} className="text-gold font-bold hover:underline">
               View all {city.provinceLabel} delivery areas →
             </Link>
           </p>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            {[
+              { label: 'All Delivery Areas', href: '/delivery' },
+              { label: 'Our Services', href: '/services' },
+              { label: 'Get a Quote', href: '/quote' },
+              { label: 'Read Our Blog', href: '/blog' },
+            ].map((l) => (
+              <Link
+                key={l.href}
+                href={l.href}
+                className="bg-light-blue text-center rounded-xl py-3 px-4 text-sm font-semibold text-navy hover:bg-navy hover:text-white transition-colors"
+              >
+                {l.label}
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 

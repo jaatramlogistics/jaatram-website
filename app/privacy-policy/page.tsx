@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Privacy Policy | Jaatram Logistics',
   description:
-    'Read the Jaatram Logistics Privacy Policy to learn how we collect, use, and protect your personal information.',
+    'Read the Jaatram Logistics privacy policy. We are committed to protecting your personal information in accordance with Canadian PIPEDA privacy laws.',
 };
 
 export default function PrivacyPolicyPage() {

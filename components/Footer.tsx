@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2.5 mb-4">
               <Image
-                src="/images/logo.png"
+                src="/images/Logo.png"
                 alt="Jaatram Logistics"
                 width={40}
                 height={40}

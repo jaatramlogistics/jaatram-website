@@ -163,6 +163,52 @@ export default function BlogPostPage({ params }: Props) {
                     </div>
                   </div>
                 )}
+
+                {/* Delivery Areas — internal linking */}
+                <div>
+                  <h3 className="font-bold text-navy text-sm uppercase tracking-wider mb-3">Our Delivery Areas</h3>
+                  <div className="flex flex-col gap-1.5">
+                    {[
+                      { label: 'Windsor, ON', href: '/delivery/ontario/windsor' },
+                      { label: 'Kitchener, ON', href: '/delivery/ontario/kitchener' },
+                      { label: 'Vaughan, ON', href: '/delivery/ontario/vaughan' },
+                      { label: 'Scarborough, ON', href: '/delivery/ontario/scarborough' },
+                      { label: 'Brantford, ON', href: '/delivery/ontario/brantford' },
+                      { label: 'Sarnia, ON', href: '/delivery/ontario/sarnia' },
+                      { label: 'Pembroke, ON', href: '/delivery/ontario/pembroke' },
+                      { label: 'Halifax, NS', href: '/delivery/nova-scotia/halifax' },
+                      { label: 'Saint John, NB', href: '/delivery/new-brunswick/saint-john' },
+                    ].map((city) => (
+                      <Link
+                        key={city.href}
+                        href={city.href}
+                        className="text-sm text-gold hover:underline flex items-center gap-1"
+                      >
+                        <span className="text-xs">›</span> {city.label}
+                      </Link>
+                    ))}
+                  </div>
+                  <Link href="/delivery" className="text-xs text-gray-400 hover:text-gold mt-2 block transition-colors">
+                    View all delivery areas →
+                  </Link>
+                </div>
+
+                {/* Quick links */}
+                <div className="bg-light-blue rounded-xl p-4">
+                  <h3 className="font-bold text-navy text-sm uppercase tracking-wider mb-3">Quick Links</h3>
+                  <div className="flex flex-col gap-2">
+                    {[
+                      { label: 'Our Services', href: '/services' },
+                      { label: 'About Jaatram', href: '/about' },
+                      { label: 'Careers', href: '/careers' },
+                      { label: 'Contact Us', href: '/contact' },
+                    ].map((l) => (
+                      <Link key={l.href} href={l.href} className="text-sm text-navy hover:text-gold transition-colors flex items-center gap-1.5">
+                        <span className="text-gold text-xs">›</span> {l.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
               </div>
             </aside>
           </div>

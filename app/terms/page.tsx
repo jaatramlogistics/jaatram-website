@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Terms and Conditions | Jaatram Logistics',
+  title: 'Terms & Conditions | Jaatram Logistics',
   description:
-    'Read the Jaatram Logistics Terms and Conditions governing use of our website and logistics services.',
+    'Read the Jaatram Logistics terms and conditions governing use of our website and delivery services across Ontario, Nova Scotia, and New Brunswick.',
 };
 
 export default function TermsPage() {
