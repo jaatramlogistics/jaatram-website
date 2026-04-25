@@ -24,7 +24,7 @@ const services = [
   {
     icon: '📍',
     title: 'Real-Time Package Tracking',
-    desc: 'Every delivery is tracked in real-time using Dragonfly's logistics platform. Customers receive live notifications and can monitor driver location throughout delivery.',
+    desc: "Every delivery is tracked in real-time using Dragonfly's logistics platform. Customers receive live notifications and can monitor driver location throughout delivery.",
     features: ['Live GPS tracking', 'SMS & email notifications', 'Driver ETA updates', 'Delivery confirmation photos'],
   },
   {
