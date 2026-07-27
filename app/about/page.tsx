@@ -91,6 +91,27 @@ export default function AboutPage() {
                   </li>
                 ))}
               </ul>
+
+              {/* Founder card */}
+              <div className="mt-8 bg-light-blue rounded-3xl p-5 sm:p-6 flex flex-col sm:flex-row items-center sm:items-start gap-5 [box-shadow:0_4px_24px_0_rgba(26,43,94,0.10)]">
+                <div className="relative w-28 h-28 sm:w-32 sm:h-32 shrink-0 rounded-2xl overflow-hidden ring-4 ring-white [box-shadow:0_4px_16px_0_rgba(26,43,94,0.18)]">
+                  <Image
+                    src="/images/founder-sahil.jpg"
+                    alt="Sahil, Founder and CEO of Jaatram Logistics"
+                    fill
+                    sizes="128px"
+                    className="object-cover object-top"
+                  />
+                </div>
+                <div className="text-center sm:text-left">
+                  <p className="text-[10px] font-bold text-gold uppercase tracking-wider mb-1">Meet the Founder</p>
+                  <h3 className="text-xl font-black text-navy leading-tight">Sahil</h3>
+                  <p className="text-sm text-gray-500 mb-3">Founder &amp; CEO, Jaatram Logistics</p>
+                  <p className="text-sm text-gray-600 leading-relaxed border-l-2 border-gold pl-3 text-left">
+                    &ldquo;I started behind the wheel of a delivery van. That is still how I think about this business &mdash; every route, every parcel, every driver matters.&rdquo;
+                  </p>
+                </div>
+              </div>
             </div>
 
             {/* Timeline */}
