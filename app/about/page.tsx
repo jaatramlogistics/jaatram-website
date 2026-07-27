@@ -248,12 +248,12 @@ export default function AboutPage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
             {[
-              { src: '/images/team-warehouse.jpg', alt: 'Jaatram Logistics team at the Dragonfly station', label: 'Dragonfly Station Team' },
-              { src: '/images/team-outdoor.jpg', alt: 'Jaatram Logistics team outdoors', label: 'Ready for the Route' },
-              { src: '/images/team-indoor.jpg', alt: 'Jaatram Logistics team in company polos', label: 'Our Growing Family' },
+              { src: '/images/station-leadership.jpg', alt: 'Sahil, Founder of Jaatram Logistics, meeting partners on the floor at a Dragonfly station', label: 'Leadership on the Ground', pos: 'object-[70%_center]' },
+              { src: '/images/team-outdoor.jpg', alt: 'Jaatram Logistics team outdoors', label: 'Ready for the Route', pos: 'object-center' },
+              { src: '/images/team-indoor.jpg', alt: 'Jaatram Logistics team in company polos', label: 'Our Growing Family', pos: 'object-center' },
             ].map((photo) => (
               <div key={photo.label} className="relative h-64 rounded-2xl overflow-hidden [box-shadow:0_4px_20px_0_rgba(26,43,94,0.12)]">
-                <Image src={photo.src} alt={photo.alt} fill className="object-cover" />
+                <Image src={photo.src} alt={photo.alt} fill sizes="(max-width: 640px) 100vw, 33vw" className={`object-cover ${photo.pos}`} />
                 <div className="absolute inset-0 bg-gradient-to-t from-navy/70 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-4">
                   <p className="text-white text-sm font-bold">{photo.label}</p>

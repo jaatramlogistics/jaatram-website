@@ -213,6 +213,60 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* FOUNDER-LED / STATION FLOOR */}
+      <section className="pb-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-10 items-center">
+            <div className="relative h-72 sm:h-80 rounded-3xl overflow-hidden [box-shadow:0_8px_40px_0_rgba(26,43,94,0.16)]">
+              <Image
+                src="/images/station-leadership.jpg"
+                alt="Sahil, Founder of Jaatram Logistics, meeting delivery partners on the floor at a Dragonfly station"
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-cover object-[65%_center]"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-navy/60 via-transparent to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-6">
+                <p className="text-white text-sm font-bold">On the floor at a Dragonfly station</p>
+              </div>
+            </div>
+
+            <div>
+              <div className="inline-block bg-gold/10 text-gold text-xs font-bold px-3 py-1.5 rounded-full mb-4 uppercase tracking-wider">
+                Founder-Led Operations
+              </div>
+              <h2 className="text-3xl sm:text-4xl font-black text-navy leading-tight mb-4">
+                We are in the building, <span className="text-gold">every single day</span>
+              </h2>
+              <p className="text-gray-600 text-base leading-relaxed mb-4">
+                Jaatram started with one man driving one route. That is still how the business runs &mdash; our founder is on the station floor with the team, not managing from a distance.
+              </p>
+              <p className="text-gray-600 text-base leading-relaxed mb-6">
+                It is why our drivers stay, why our partners trust us with more stations, and why we hold a 4.9-star rating across thousands of deliveries.
+              </p>
+              <div className="flex flex-wrap gap-3 mb-6">
+                {[
+                  { val: '9+', label: 'Stations' },
+                  { val: '12', label: 'Supervisors' },
+                  { val: '140+', label: 'Team Members' },
+                ].map((s) => (
+                  <div key={s.label} className="bg-light-blue rounded-xl px-4 py-2.5">
+                    <span className="text-lg font-black text-gold">{s.val}</span>
+                    <span className="text-xs text-gray-500 ml-2">{s.label}</span>
+                  </div>
+                ))}
+              </div>
+              <Link href="/about" className="inline-flex items-center gap-2 text-sm font-bold text-navy hover:text-gold transition-colors">
+                Read our founding story
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* SERVICES */}
       <section className="py-16 bg-light-blue">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
