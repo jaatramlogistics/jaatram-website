@@ -299,9 +299,25 @@ export default function HomePage() {
               <span className="text-gold">3 Provinces</span>
             </h2>
             <p className="text-gray-500 text-base sm:text-lg max-w-2xl mx-auto">
-              Ontario, Nova Scotia, and New Brunswick. We serve over 200 cities and communities with the same professional standard.
+              Ontario, Nova Scotia, and New Brunswick. Nine Dragonfly stations serving these cities and their surrounding communities to the same professional standard.
             </p>
           </div>
+          <div className="mb-12">
+            <div className="relative w-full aspect-[3/2] rounded-3xl overflow-hidden [box-shadow:0_8px_40px_0_rgba(26,43,94,0.16)]">
+              <Image
+                src="/images/coverage-map.jpg"
+                alt="Map of Jaatram Logistics delivery coverage: Ontario, Nova Scotia and New Brunswick, with station pins in Windsor, Sarnia, Kitchener, Brantford, Scarborough, Vaughan, Pembroke, Saint John and Halifax"
+                fill
+                sizes="(max-width: 1024px) 100vw, 1152px"
+                className="object-cover"
+                priority={false}
+              />
+            </div>
+            <p className="text-center text-xs text-gray-400 mt-3">
+              Our coverage today: 9 Dragonfly stations across Ontario, Nova Scotia, and New Brunswick.
+            </p>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {provinces.map((p) => (
               <div key={p.slug} className="bg-white rounded-2xl [box-shadow:0_2px_16px_0_rgba(26,43,94,0.08)] overflow-hidden group hover:[box-shadow:0_6px_28px_0_rgba(26,43,94,0.14)] transition-shadow">

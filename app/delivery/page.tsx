@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { provinces, getCitiesByProvince } from '@/data/cities';
 
 export const metadata: Metadata = {
@@ -24,6 +25,22 @@ export default function DeliveryPage() {
 
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mb-12">
+            <div className="relative w-full aspect-[3/2] rounded-3xl overflow-hidden [box-shadow:0_8px_40px_0_rgba(26,43,94,0.16)]">
+              <Image
+                src="/images/coverage-map.jpg"
+                alt="Map of Jaatram Logistics delivery coverage: Ontario, Nova Scotia and New Brunswick, with station pins in Windsor, Sarnia, Kitchener, Brantford, Scarborough, Vaughan, Pembroke, Saint John and Halifax"
+                fill
+                sizes="(max-width: 1024px) 100vw, 1152px"
+                className="object-cover"
+                priority={false}
+              />
+            </div>
+            <p className="text-center text-xs text-gray-400 mt-3">
+              Our coverage today: 9 Dragonfly stations across Ontario, Nova Scotia, and New Brunswick.
+            </p>
+          </div>
+
           <div className="space-y-14">
             {provinces.map((province) => {
               const cities = getCitiesByProvince(province.slug);
